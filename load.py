@@ -20,7 +20,7 @@ from loading_helpers import *
 hparams = {}
 # hyperparameters
 
-hparams['model_size'] = "ViT-B/32" 
+hparams['model_size'] = "ViT-B/16" 
 # Options:
 # ['RN50',
 #  'RN101',
@@ -35,9 +35,12 @@ hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
-hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend'
+# hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend' # Actual value
+hparams['category_name_inclusion'] = 'do-nothing' # Added by me
 
-hparams['apply_descriptor_modification'] = True
+
+hparams['apply_descriptor_modification'] = False # Actual value
+# hparams['apply_descriptor_modification'] = False # Added by me
 
 hparams['verbose'] = False
 hparams['image_size'] = 224
@@ -75,7 +78,7 @@ hparams['descriptor_fname'] = None
 
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
-CUB_DIR = '/proj/vondrick/datasets/Birds-200-2011/' # REPLACE THIS WITH YOUR OWN PATH
+CUB_DIR = '/home/kush/Desktop/CLIP/CUB/CUB_200_2011/' # REPLACE THIS WITH YOUR OWN PATH
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -95,6 +98,7 @@ if hparams['dataset'] == 'imagenet':
         hparams['after_text'] = hparams['label_after_text'] = '.'
         
     elif hparams['dataset'] == 'imagenetv2':
+        # /proj/vondrick/datasets/Birds-200-2011/
         hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
         dataset = ImageNetV2(location=hparams['data_dir'], transform=tfms)
         classes_to_load = openai_imagenet_classes
@@ -106,7 +110,8 @@ elif hparams['dataset'] == 'cub':
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub'
+    # hparams['descriptor_fname'] = 'descriptors_cub'
+    hparams['descriptor_fname'] = 'descriptors_cub_para'
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
@@ -120,12 +125,50 @@ label_to_classname = list(gpt_descriptions.keys())
 
 n_classes = len(list(gpt_descriptions.keys()))
 
-def compute_description_encodings(model):
+def compute_description_encodings(model, using_large_sized_desc = False):
     description_encodings = OrderedDict()
     for k, v in gpt_descriptions.items():
-        tokens = clip.tokenize(v).to(hparams['device'])
-        description_encodings[k] = F.normalize(model.encode_text(tokens))
+        if using_large_sized_desc == True: # By me
+            # break the text into sentences and encode them
+            v = break_sentences(k, v, 'fsw')
+            # v =f"{class_name}{ hparams['between_text']}{make_descriptor_sentence(sentence)}
+            print(v)
+            tokens = clip.tokenize(v, truncate = True).to(hparams['device'])
+            # description_encodings[k] = F.normalize(model.encode_text(tokens)) # Original
+            
+            # manipulating encodings, my addition
+            description_encodings[k] = encoding_operations(model.encode_text(tokens), operation="add")
+            description_encodings[k] = F.normalize(description_encodings[k])
+        else:
+            tokens = clip.tokenize(v, truncate = True).to(hparams['device'])
+            description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens), "nothing"))
     return description_encodings
+
+
+# My addition
+def break_sentences(class_name, paragraph, way="fs"):
+    # Can be broken into many ways:
+    # Breaking them using full-stop, using commas, using fixed sized window.
+    if way == 'fs':
+        return [f"{class_name}{ hparams['between_text']}{sentence.strip()}" for sentence in paragraph[0].split('.') if len(sentence) > 0]
+    elif way == 'comma':
+        return [f"{class_name}{ hparams['between_text']}{sentence.strip()}" for sentence in paragraph[0].split(',') if len(sentence) > 0]
+    elif way == 'fsw': # Fixed-sized window
+        window_size = 40
+        words = paragraph[0].split(' ')
+        return [f"{class_name}{ hparams['between_text']}{' '.join(words[i:min(len(words), i+(window_size))]).strip()}" for i in range(0, len(words), window_size)]
+    else:
+        return [para.split('\n') for para in paragraph][0]
+
+# My addition
+def encoding_operations(encodings, operation="add"):
+    if operation == "add":
+        return encodings.sum(dim = 0, keepdim=True)
+    elif operation == "mean":
+        return encodings.mean(dim = 0, keepdim=True)
+    else:
+        return encodings
+
 
 def compute_label_encodings(model):
     label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))
