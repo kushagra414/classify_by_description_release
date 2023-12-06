@@ -3,9 +3,18 @@ import torchmetrics
 from tqdm import tqdm
 
 
+def initialize_counter_dict():
+    dict_ = dict()
+    for actual_label in label_to_classname:
+        dict_[actual_label] = dict()
+        for predicted_label in label_to_classname:
+            dict_[actual_label][predicted_label] = 0
+    return dict_
+
+
 seed_everything(hparams['seed'])
 
-bs = hparams['batch_size']
+bs = 1
 dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=16, pin_memory=True)
 
 print("Loading model...")
@@ -31,6 +40,9 @@ lang_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5, task="multiclass", nu
 
 clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=200).to(device)
 clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5, task="multiclass", num_classes=200).to(device)
+
+count_classes = initialize_counter_dict()
+
 
 for batch_number, batch in enumerate(tqdm(dataloader)):
     images, labels = batch
@@ -66,7 +78,12 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         
     
     descr_predictions = cumulative_tensor.argmax(dim=1)
-    
+    top5_values, top5_indices = cumulative_tensor.topk(5, dim=1)
+
+    actual_class_name = label_to_classname[labels.squeeze()]
+    for predicted_index in top5_indices.squeeze():
+        predicted_class_name = label_to_classname[predicted_index]
+        count_classes[actual_class_name][predicted_class_name] +=1
     
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
     lang_acc_top5 = lang_accuracy_metric_top5(cumulative_tensor.softmax(dim=-1), labels)
@@ -86,3 +103,13 @@ accuracy_logs["Total CLIP-Standard Top-5 Accuracy: "] = 100*clip_accuracy_metric
 print("\n")
 for key, value in accuracy_logs.items():
     print(key, value)
+
+
+
+for actual_keys in count_classes.keys():
+    count_classes[actual_keys] = sorted(count_classes[actual_keys].items(), key=lambda x: x[1], reverse=True)
+
+for key in count_classes.keys():
+    top5_pred_classes = count_classes[key][0: 5]
+    print(f"'{key}': {top5_pred_classes}")
+
