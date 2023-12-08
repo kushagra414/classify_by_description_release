@@ -1,4 +1,4 @@
-from load import *
+from load_my import *
 import torchmetrics
 from tqdm import tqdm
 
@@ -15,7 +15,7 @@ def initialize_counter_dict():
 seed_everything(hparams['seed'])
 
 bs = 1
-dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=16, pin_memory=True)
+dataloader = DataLoader(dataset, bs, shuffle=True, num_workers=40, pin_memory=True)
 
 print("Loading model...")
 
@@ -27,9 +27,8 @@ model.requires_grad_(False)
 
 print("Encoding descriptions...")
 
-
-# description_encodings = compute_description_encodings(model) # Original
-description_encodings = compute_description_encodings(model, True) # My addition
+description_encodings = compute_description_encodings(model) # Original
+# description_encodings = compute_description_encodings(model, True) # My addition
 
 label_encodings = compute_label_encodings(model)
 
@@ -56,6 +55,12 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
     image_labels_similarity = image_encodings @ label_encodings.T
     clip_predictions = image_labels_similarity.argmax(dim=1)
     
+    top5_values, top5_indices = image_labels_similarity.topk(5, dim=1)
+
+    actual_class_name = label_to_classname[labels.squeeze()]
+    for predicted_index in top5_indices.squeeze():
+        predicted_class_name = label_to_classname[predicted_index]
+        count_classes[actual_class_name][predicted_class_name] +=1
     
     clip_acc = clip_accuracy_metric(image_labels_similarity, labels)
     clip_acc_top5 = clip_accuracy_metric_top5(image_labels_similarity, labels)
@@ -78,12 +83,12 @@ for batch_number, batch in enumerate(tqdm(dataloader)):
         
     
     descr_predictions = cumulative_tensor.argmax(dim=1)
-    top5_values, top5_indices = cumulative_tensor.topk(5, dim=1)
+#     top5_values, top5_indices = cumulative_tensor.topk(5, dim=1)
 
-    actual_class_name = label_to_classname[labels.squeeze()]
-    for predicted_index in top5_indices.squeeze():
-        predicted_class_name = label_to_classname[predicted_index]
-        count_classes[actual_class_name][predicted_class_name] +=1
+#     actual_class_name = label_to_classname[labels.squeeze()]
+#     for predicted_index in top5_indices.squeeze():
+#         predicted_class_name = label_to_classname[predicted_index]
+#         count_classes[actual_class_name][predicted_class_name] +=1
     
     lang_acc = lang_accuracy_metric(cumulative_tensor.softmax(dim=-1), labels)
     lang_acc_top5 = lang_accuracy_metric_top5(cumulative_tensor.softmax(dim=-1), labels)
@@ -109,7 +114,9 @@ for key, value in accuracy_logs.items():
 for actual_keys in count_classes.keys():
     count_classes[actual_keys] = sorted(count_classes[actual_keys].items(), key=lambda x: x[1], reverse=True)
 
-for key in count_classes.keys():
-    top5_pred_classes = count_classes[key][0: 5]
-    print(f"'{key}': {top5_pred_classes}")
+json_string = json.dumps(count_classes, indent=4)  # indent for pretty formatting
+
+# Write JSON string to a text file
+with open('top5.txt', 'w') as file:
+    file.write(json_string)
 

@@ -1,0 +1,5552 @@
+{
+    "Abyssinian Cat": [
+        [
+            "Abyssinian Cat",
+            99
+        ],
+        [
+            "Siamese Cat",
+            89
+        ],
+        [
+            "British Shorthair Cat",
+            67
+        ],
+        [
+            "Egyptian Mau Cat",
+            63
+        ],
+        [
+            "Sphynx Cat",
+            60
+        ],
+        [
+            "Bengal Cat",
+            52
+        ],
+        [
+            "Russian Blue Cat",
+            32
+        ],
+        [
+            "Maine Coon Cat",
+            12
+        ],
+        [
+            "Persian Cat",
+            7
+        ],
+        [
+            "Miniature Pinscher Dog",
+            6
+        ],
+        [
+            "Bombay Cat",
+            4
+        ],
+        [
+            "Ragdoll Cat",
+            2
+        ],
+        [
+            "Chihuahua Dog",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "German Shorthaired Dog",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Shiba Inu Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "American Bulldog Dog": [
+        [
+            "American Bulldog Dog",
+            100
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            97
+        ],
+        [
+            "Boxer Dog",
+            92
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            91
+        ],
+        [
+            "Saint Bernard Dog",
+            50
+        ],
+        [
+            "Great Pyrenees Dog",
+            17
+        ],
+        [
+            "Basset Hound Dog",
+            12
+        ],
+        [
+            "German Shorthaired Dog",
+            12
+        ],
+        [
+            "Beagle Dog",
+            7
+        ],
+        [
+            "Pug Dog",
+            7
+        ],
+        [
+            "Chihuahua Dog",
+            4
+        ],
+        [
+            "English Setter Dog",
+            4
+        ],
+        [
+            "Japanese Chin Dog",
+            2
+        ],
+        [
+            "Miniature Pinscher Dog",
+            2
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "Havanese Dog",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "American Pit Bull Terrier Dog": [
+        [
+            "American Pit Bull Terrier Dog",
+            99
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            99
+        ],
+        [
+            "American Bulldog Dog",
+            85
+        ],
+        [
+            "Boxer Dog",
+            79
+        ],
+        [
+            "Miniature Pinscher Dog",
+            42
+        ],
+        [
+            "German Shorthaired Dog",
+            36
+        ],
+        [
+            "Chihuahua Dog",
+            19
+        ],
+        [
+            "Basset Hound Dog",
+            14
+        ],
+        [
+            "Beagle Dog",
+            8
+        ],
+        [
+            "Shiba Inu Dog",
+            6
+        ],
+        [
+            "English Setter Dog",
+            3
+        ],
+        [
+            "Saint Bernard Dog",
+            3
+        ],
+        [
+            "Scottish Terrier Dog",
+            3
+        ],
+        [
+            "Bombay Cat",
+            2
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Sphynx Cat",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Basset Hound Dog": [
+        [
+            "Beagle Dog",
+            100
+        ],
+        [
+            "Basset Hound Dog",
+            98
+        ],
+        [
+            "Saint Bernard Dog",
+            70
+        ],
+        [
+            "German Shorthaired Dog",
+            59
+        ],
+        [
+            "English Setter Dog",
+            56
+        ],
+        [
+            "Boxer Dog",
+            50
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            31
+        ],
+        [
+            "American Bulldog Dog",
+            26
+        ],
+        [
+            "Miniature Pinscher Dog",
+            4
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            1
+        ],
+        [
+            "Chihuahua Dog",
+            1
+        ],
+        [
+            "Havanese Dog",
+            1
+        ],
+        [
+            "Japanese Chin Dog",
+            1
+        ],
+        [
+            "Shiba Inu Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Beagle Dog": [
+        [
+            "Beagle Dog",
+            100
+        ],
+        [
+            "Basset Hound Dog",
+            98
+        ],
+        [
+            "Boxer Dog",
+            59
+        ],
+        [
+            "Saint Bernard Dog",
+            50
+        ],
+        [
+            "American Bulldog Dog",
+            44
+        ],
+        [
+            "Chihuahua Dog",
+            33
+        ],
+        [
+            "Miniature Pinscher Dog",
+            30
+        ],
+        [
+            "English Setter Dog",
+            26
+        ],
+        [
+            "German Shorthaired Dog",
+            24
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            14
+        ],
+        [
+            "Shiba Inu Dog",
+            14
+        ],
+        [
+            "Pomeranian Dog",
+            2
+        ],
+        [
+            "Pug Dog",
+            2
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Havanese Dog",
+            1
+        ],
+        [
+            "Japanese Chin Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Bengal Cat": [
+        [
+            "Egyptian Mau Cat",
+            95
+        ],
+        [
+            "Bengal Cat",
+            93
+        ],
+        [
+            "Abyssinian Cat",
+            90
+        ],
+        [
+            "Maine Coon Cat",
+            76
+        ],
+        [
+            "British Shorthair Cat",
+            63
+        ],
+        [
+            "Siamese Cat",
+            44
+        ],
+        [
+            "Sphynx Cat",
+            16
+        ],
+        [
+            "Persian Cat",
+            9
+        ],
+        [
+            "Russian Blue Cat",
+            7
+        ],
+        [
+            "Bombay Cat",
+            3
+        ],
+        [
+            "Ragdoll Cat",
+            3
+        ],
+        [
+            "Birman Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Birman Cat": [
+        [
+            "Birman Cat",
+            100
+        ],
+        [
+            "Persian Cat",
+            100
+        ],
+        [
+            "Ragdoll Cat",
+            100
+        ],
+        [
+            "Siamese Cat",
+            100
+        ],
+        [
+            "Maine Coon Cat",
+            59
+        ],
+        [
+            "British Shorthair Cat",
+            34
+        ],
+        [
+            "Russian Blue Cat",
+            4
+        ],
+        [
+            "Abyssinian Cat",
+            1
+        ],
+        [
+            "Japanese Chin Dog",
+            1
+        ],
+        [
+            "Keeshond Dog",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Bombay Cat": [
+        [
+            "Bombay Cat",
+            96
+        ],
+        [
+            "Siamese Cat",
+            93
+        ],
+        [
+            "Russian Blue Cat",
+            92
+        ],
+        [
+            "British Shorthair Cat",
+            68
+        ],
+        [
+            "Egyptian Mau Cat",
+            50
+        ],
+        [
+            "Sphynx Cat",
+            28
+        ],
+        [
+            "Persian Cat",
+            27
+        ],
+        [
+            "Abyssinian Cat",
+            15
+        ],
+        [
+            "Maine Coon Cat",
+            8
+        ],
+        [
+            "Scottish Terrier Dog",
+            2
+        ],
+        [
+            "Bengal Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Boxer Dog": [
+        [
+            "Boxer Dog",
+            98
+        ],
+        [
+            "American Bulldog Dog",
+            96
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            84
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            74
+        ],
+        [
+            "Saint Bernard Dog",
+            47
+        ],
+        [
+            "Pug Dog",
+            21
+        ],
+        [
+            "Basset Hound Dog",
+            20
+        ],
+        [
+            "Leonberger Dog",
+            19
+        ],
+        [
+            "Miniature Pinscher Dog",
+            19
+        ],
+        [
+            "Beagle Dog",
+            7
+        ],
+        [
+            "Chihuahua Dog",
+            4
+        ],
+        [
+            "German Shorthaired Dog",
+            4
+        ],
+        [
+            "Wheaten Terrier Dog",
+            3
+        ],
+        [
+            "Abyssinian Cat",
+            1
+        ],
+        [
+            "Bombay Cat",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "British Shorthair Cat": [
+        [
+            "British Shorthair Cat",
+            100
+        ],
+        [
+            "Russian Blue Cat",
+            100
+        ],
+        [
+            "Persian Cat",
+            82
+        ],
+        [
+            "Siamese Cat",
+            78
+        ],
+        [
+            "Egyptian Mau Cat",
+            69
+        ],
+        [
+            "Bombay Cat",
+            36
+        ],
+        [
+            "Abyssinian Cat",
+            21
+        ],
+        [
+            "Ragdoll Cat",
+            8
+        ],
+        [
+            "Birman Cat",
+            3
+        ],
+        [
+            "Sphynx Cat",
+            2
+        ],
+        [
+            "Maine Coon Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Chihuahua Dog": [
+        [
+            "Chihuahua Dog",
+            98
+        ],
+        [
+            "Miniature Pinscher Dog",
+            98
+        ],
+        [
+            "Pomeranian Dog",
+            61
+        ],
+        [
+            "Sphynx Cat",
+            37
+        ],
+        [
+            "Shiba Inu Dog",
+            34
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            34
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            33
+        ],
+        [
+            "Scottish Terrier Dog",
+            24
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            23
+        ],
+        [
+            "Beagle Dog",
+            21
+        ],
+        [
+            "Siamese Cat",
+            15
+        ],
+        [
+            "Basset Hound Dog",
+            5
+        ],
+        [
+            "Japanese Chin Dog",
+            5
+        ],
+        [
+            "American Bulldog Dog",
+            3
+        ],
+        [
+            "Pug Dog",
+            3
+        ],
+        [
+            "German Shorthaired Dog",
+            2
+        ],
+        [
+            "Abyssinian Cat",
+            1
+        ],
+        [
+            "Bombay Cat",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ]
+    ],
+    "Egyptian Mau Cat": [
+        [
+            "Egyptian Mau Cat",
+            93
+        ],
+        [
+            "Bengal Cat",
+            86
+        ],
+        [
+            "British Shorthair Cat",
+            85
+        ],
+        [
+            "Maine Coon Cat",
+            61
+        ],
+        [
+            "Abyssinian Cat",
+            47
+        ],
+        [
+            "Russian Blue Cat",
+            29
+        ],
+        [
+            "Sphynx Cat",
+            26
+        ],
+        [
+            "Siamese Cat",
+            17
+        ],
+        [
+            "Persian Cat",
+            16
+        ],
+        [
+            "Bombay Cat",
+            4
+        ],
+        [
+            "Ragdoll Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "English Cocker Spaniel Dog": [
+        [
+            "English Cocker Spaniel Dog",
+            96
+        ],
+        [
+            "English Setter Dog",
+            84
+        ],
+        [
+            "Havanese Dog",
+            63
+        ],
+        [
+            "Basset Hound Dog",
+            49
+        ],
+        [
+            "German Shorthaired Dog",
+            49
+        ],
+        [
+            "Wheaten Terrier Dog",
+            38
+        ],
+        [
+            "Newfoundland Dog",
+            33
+        ],
+        [
+            "Beagle Dog",
+            26
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            10
+        ],
+        [
+            "Leonberger Dog",
+            9
+        ],
+        [
+            "Scottish Terrier Dog",
+            9
+        ],
+        [
+            "Saint Bernard Dog",
+            4
+        ],
+        [
+            "Japanese Chin Dog",
+            3
+        ],
+        [
+            "Miniature Pinscher Dog",
+            3
+        ],
+        [
+            "Chihuahua Dog",
+            2
+        ],
+        [
+            "Boxer Dog",
+            1
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ]
+    ],
+    "English Setter Dog": [
+        [
+            "English Setter Dog",
+            100
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            96
+        ],
+        [
+            "Basset Hound Dog",
+            73
+        ],
+        [
+            "German Shorthaired Dog",
+            73
+        ],
+        [
+            "Havanese Dog",
+            32
+        ],
+        [
+            "Great Pyrenees Dog",
+            30
+        ],
+        [
+            "Saint Bernard Dog",
+            22
+        ],
+        [
+            "Beagle Dog",
+            20
+        ],
+        [
+            "Wheaten Terrier Dog",
+            16
+        ],
+        [
+            "American Bulldog Dog",
+            12
+        ],
+        [
+            "Chihuahua Dog",
+            8
+        ],
+        [
+            "Newfoundland Dog",
+            8
+        ],
+        [
+            "Japanese Chin Dog",
+            4
+        ],
+        [
+            "Leonberger Dog",
+            2
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            1
+        ],
+        [
+            "Boxer Dog",
+            1
+        ],
+        [
+            "Miniature Pinscher Dog",
+            1
+        ],
+        [
+            "Scottish Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "German Shorthaired Dog": [
+        [
+            "German Shorthaired Dog",
+            97
+        ],
+        [
+            "English Setter Dog",
+            81
+        ],
+        [
+            "Basset Hound Dog",
+            75
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            63
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            30
+        ],
+        [
+            "American Bulldog Dog",
+            29
+        ],
+        [
+            "Beagle Dog",
+            25
+        ],
+        [
+            "Miniature Pinscher Dog",
+            23
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            20
+        ],
+        [
+            "Newfoundland Dog",
+            14
+        ],
+        [
+            "Boxer Dog",
+            11
+        ],
+        [
+            "Saint Bernard Dog",
+            11
+        ],
+        [
+            "Chihuahua Dog",
+            6
+        ],
+        [
+            "Scottish Terrier Dog",
+            4
+        ],
+        [
+            "Great Pyrenees Dog",
+            3
+        ],
+        [
+            "Leonberger Dog",
+            2
+        ],
+        [
+            "Russian Blue Cat",
+            2
+        ],
+        [
+            "Shiba Inu Dog",
+            2
+        ],
+        [
+            "Pomeranian Dog",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Great Pyrenees Dog": [
+        [
+            "Great Pyrenees Dog",
+            100
+        ],
+        [
+            "Samoyed Dog",
+            80
+        ],
+        [
+            "Newfoundland Dog",
+            68
+        ],
+        [
+            "English Setter Dog",
+            54
+        ],
+        [
+            "Keeshond Dog",
+            49
+        ],
+        [
+            "Saint Bernard Dog",
+            45
+        ],
+        [
+            "Leonberger Dog",
+            37
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            18
+        ],
+        [
+            "Pomeranian Dog",
+            18
+        ],
+        [
+            "Havanese Dog",
+            12
+        ],
+        [
+            "Wheaten Terrier Dog",
+            12
+        ],
+        [
+            "American Bulldog Dog",
+            2
+        ],
+        [
+            "Japanese Chin Dog",
+            2
+        ],
+        [
+            "Shiba Inu Dog",
+            2
+        ],
+        [
+            "Chihuahua Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Havanese Dog": [
+        [
+            "Havanese Dog",
+            100
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            73
+        ],
+        [
+            "Wheaten Terrier Dog",
+            73
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            72
+        ],
+        [
+            "Japanese Chin Dog",
+            44
+        ],
+        [
+            "Pomeranian Dog",
+            36
+        ],
+        [
+            "Newfoundland Dog",
+            26
+        ],
+        [
+            "Scottish Terrier Dog",
+            23
+        ],
+        [
+            "English Setter Dog",
+            18
+        ],
+        [
+            "Keeshond Dog",
+            6
+        ],
+        [
+            "Basset Hound Dog",
+            5
+        ],
+        [
+            "Great Pyrenees Dog",
+            5
+        ],
+        [
+            "Samoyed Dog",
+            5
+        ],
+        [
+            "German Shorthaired Dog",
+            4
+        ],
+        [
+            "Beagle Dog",
+            3
+        ],
+        [
+            "Chihuahua Dog",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "Birman Cat",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Persian Cat",
+            1
+        ],
+        [
+            "Ragdoll Cat",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ]
+    ],
+    "Japanese Chin Dog": [
+        [
+            "Japanese Chin Dog",
+            98
+        ],
+        [
+            "Pomeranian Dog",
+            90
+        ],
+        [
+            "Chihuahua Dog",
+            81
+        ],
+        [
+            "Havanese Dog",
+            68
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            46
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            33
+        ],
+        [
+            "Pug Dog",
+            23
+        ],
+        [
+            "Saint Bernard Dog",
+            18
+        ],
+        [
+            "English Setter Dog",
+            8
+        ],
+        [
+            "Keeshond Dog",
+            7
+        ],
+        [
+            "Boxer Dog",
+            6
+        ],
+        [
+            "Persian Cat",
+            5
+        ],
+        [
+            "Basset Hound Dog",
+            3
+        ],
+        [
+            "Great Pyrenees Dog",
+            3
+        ],
+        [
+            "Beagle Dog",
+            2
+        ],
+        [
+            "Newfoundland Dog",
+            2
+        ],
+        [
+            "Birman Cat",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Maine Coon Cat",
+            1
+        ],
+        [
+            "Miniature Pinscher Dog",
+            1
+        ],
+        [
+            "Ragdoll Cat",
+            1
+        ],
+        [
+            "Siamese Cat",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ]
+    ],
+    "Keeshond Dog": [
+        [
+            "Keeshond Dog",
+            100
+        ],
+        [
+            "Pomeranian Dog",
+            93
+        ],
+        [
+            "Samoyed Dog",
+            80
+        ],
+        [
+            "Leonberger Dog",
+            77
+        ],
+        [
+            "Great Pyrenees Dog",
+            47
+        ],
+        [
+            "Newfoundland Dog",
+            37
+        ],
+        [
+            "Scottish Terrier Dog",
+            14
+        ],
+        [
+            "Chihuahua Dog",
+            11
+        ],
+        [
+            "Japanese Chin Dog",
+            11
+        ],
+        [
+            "Persian Cat",
+            7
+        ],
+        [
+            "Saint Bernard Dog",
+            6
+        ],
+        [
+            "Birman Cat",
+            4
+        ],
+        [
+            "English Setter Dog",
+            2
+        ],
+        [
+            "Havanese Dog",
+            2
+        ],
+        [
+            "Shiba Inu Dog",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "Ragdoll Cat",
+            1
+        ],
+        [
+            "Russian Blue Cat",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ]
+    ],
+    "Leonberger Dog": [
+        [
+            "Leonberger Dog",
+            99
+        ],
+        [
+            "Newfoundland Dog",
+            91
+        ],
+        [
+            "Saint Bernard Dog",
+            86
+        ],
+        [
+            "Keeshond Dog",
+            77
+        ],
+        [
+            "Great Pyrenees Dog",
+            64
+        ],
+        [
+            "Wheaten Terrier Dog",
+            29
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            19
+        ],
+        [
+            "Pomeranian Dog",
+            15
+        ],
+        [
+            "English Setter Dog",
+            5
+        ],
+        [
+            "Scottish Terrier Dog",
+            4
+        ],
+        [
+            "Japanese Chin Dog",
+            3
+        ],
+        [
+            "Boxer Dog",
+            2
+        ],
+        [
+            "Chihuahua Dog",
+            2
+        ],
+        [
+            "Maine Coon Cat",
+            1
+        ],
+        [
+            "Pug Dog",
+            1
+        ],
+        [
+            "Samoyed Dog",
+            1
+        ],
+        [
+            "Siamese Cat",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Maine Coon Cat": [
+        [
+            "Maine Coon Cat",
+            100
+        ],
+        [
+            "Persian Cat",
+            98
+        ],
+        [
+            "Ragdoll Cat",
+            81
+        ],
+        [
+            "Birman Cat",
+            69
+        ],
+        [
+            "Abyssinian Cat",
+            54
+        ],
+        [
+            "British Shorthair Cat",
+            30
+        ],
+        [
+            "Bengal Cat",
+            27
+        ],
+        [
+            "Siamese Cat",
+            18
+        ],
+        [
+            "Egyptian Mau Cat",
+            15
+        ],
+        [
+            "Russian Blue Cat",
+            3
+        ],
+        [
+            "Bombay Cat",
+            2
+        ],
+        [
+            "Keeshond Dog",
+            2
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Miniature Pinscher Dog": [
+        [
+            "Miniature Pinscher Dog",
+            100
+        ],
+        [
+            "Chihuahua Dog",
+            94
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            60
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            45
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            37
+        ],
+        [
+            "Scottish Terrier Dog",
+            27
+        ],
+        [
+            "Shiba Inu Dog",
+            24
+        ],
+        [
+            "Basset Hound Dog",
+            23
+        ],
+        [
+            "Beagle Dog",
+            22
+        ],
+        [
+            "German Shorthaired Dog",
+            22
+        ],
+        [
+            "Pomeranian Dog",
+            14
+        ],
+        [
+            "Abyssinian Cat",
+            10
+        ],
+        [
+            "Sphynx Cat",
+            10
+        ],
+        [
+            "Boxer Dog",
+            7
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            2
+        ],
+        [
+            "Siamese Cat",
+            2
+        ],
+        [
+            "Bombay Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ]
+    ],
+    "Newfoundland Dog": [
+        [
+            "Newfoundland Dog",
+            96
+        ],
+        [
+            "Leonberger Dog",
+            88
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            79
+        ],
+        [
+            "Keeshond Dog",
+            51
+        ],
+        [
+            "Great Pyrenees Dog",
+            41
+        ],
+        [
+            "Havanese Dog",
+            24
+        ],
+        [
+            "Pomeranian Dog",
+            24
+        ],
+        [
+            "Saint Bernard Dog",
+            18
+        ],
+        [
+            "Scottish Terrier Dog",
+            17
+        ],
+        [
+            "German Shorthaired Dog",
+            11
+        ],
+        [
+            "Wheaten Terrier Dog",
+            11
+        ],
+        [
+            "Bombay Cat",
+            8
+        ],
+        [
+            "English Setter Dog",
+            8
+        ],
+        [
+            "Samoyed Dog",
+            3
+        ],
+        [
+            "Persian Cat",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Persian Cat": [
+        [
+            "Birman Cat",
+            100
+        ],
+        [
+            "Persian Cat",
+            100
+        ],
+        [
+            "Ragdoll Cat",
+            94
+        ],
+        [
+            "British Shorthair Cat",
+            87
+        ],
+        [
+            "Maine Coon Cat",
+            85
+        ],
+        [
+            "Siamese Cat",
+            21
+        ],
+        [
+            "Abyssinian Cat",
+            8
+        ],
+        [
+            "Pomeranian Dog",
+            2
+        ],
+        [
+            "Japanese Chin Dog",
+            1
+        ],
+        [
+            "Russian Blue Cat",
+            1
+        ],
+        [
+            "Samoyed Dog",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Pomeranian Dog": [
+        [
+            "Pomeranian Dog",
+            100
+        ],
+        [
+            "Chihuahua Dog",
+            83
+        ],
+        [
+            "Keeshond Dog",
+            83
+        ],
+        [
+            "Japanese Chin Dog",
+            77
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            52
+        ],
+        [
+            "Shiba Inu Dog",
+            37
+        ],
+        [
+            "Samoyed Dog",
+            31
+        ],
+        [
+            "Havanese Dog",
+            10
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            7
+        ],
+        [
+            "Great Pyrenees Dog",
+            5
+        ],
+        [
+            "Newfoundland Dog",
+            4
+        ],
+        [
+            "Miniature Pinscher Dog",
+            3
+        ],
+        [
+            "Persian Cat",
+            3
+        ],
+        [
+            "Scottish Terrier Dog",
+            3
+        ],
+        [
+            "Birman Cat",
+            1
+        ],
+        [
+            "Pug Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ]
+    ],
+    "Pug Dog": [
+        [
+            "Pug Dog",
+            100
+        ],
+        [
+            "American Bulldog Dog",
+            69
+        ],
+        [
+            "Chihuahua Dog",
+            68
+        ],
+        [
+            "Boxer Dog",
+            59
+        ],
+        [
+            "Siamese Cat",
+            48
+        ],
+        [
+            "Japanese Chin Dog",
+            40
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            25
+        ],
+        [
+            "Basset Hound Dog",
+            22
+        ],
+        [
+            "Pomeranian Dog",
+            22
+        ],
+        [
+            "Wheaten Terrier Dog",
+            12
+        ],
+        [
+            "Saint Bernard Dog",
+            11
+        ],
+        [
+            "Keeshond Dog",
+            7
+        ],
+        [
+            "Newfoundland Dog",
+            5
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            4
+        ],
+        [
+            "Scottish Terrier Dog",
+            3
+        ],
+        [
+            "German Shorthaired Dog",
+            2
+        ],
+        [
+            "Leonberger Dog",
+            2
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Ragdoll Cat": [
+        [
+            "Ragdoll Cat",
+            100
+        ],
+        [
+            "Birman Cat",
+            99
+        ],
+        [
+            "Persian Cat",
+            97
+        ],
+        [
+            "Siamese Cat",
+            89
+        ],
+        [
+            "Maine Coon Cat",
+            68
+        ],
+        [
+            "British Shorthair Cat",
+            44
+        ],
+        [
+            "Abyssinian Cat",
+            1
+        ],
+        [
+            "Bombay Cat",
+            1
+        ],
+        [
+            "Sphynx Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Russian Blue Cat": [
+        [
+            "Russian Blue Cat",
+            100
+        ],
+        [
+            "British Shorthair Cat",
+            99
+        ],
+        [
+            "Siamese Cat",
+            93
+        ],
+        [
+            "Egyptian Mau Cat",
+            88
+        ],
+        [
+            "Bombay Cat",
+            54
+        ],
+        [
+            "Abyssinian Cat",
+            38
+        ],
+        [
+            "Sphynx Cat",
+            17
+        ],
+        [
+            "Persian Cat",
+            8
+        ],
+        [
+            "Ragdoll Cat",
+            2
+        ],
+        [
+            "Maine Coon Cat",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Saint Bernard Dog": [
+        [
+            "Saint Bernard Dog",
+            99
+        ],
+        [
+            "Great Pyrenees Dog",
+            61
+        ],
+        [
+            "Leonberger Dog",
+            61
+        ],
+        [
+            "Newfoundland Dog",
+            53
+        ],
+        [
+            "American Bulldog Dog",
+            44
+        ],
+        [
+            "Basset Hound Dog",
+            39
+        ],
+        [
+            "Boxer Dog",
+            31
+        ],
+        [
+            "English Setter Dog",
+            30
+        ],
+        [
+            "Japanese Chin Dog",
+            27
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            20
+        ],
+        [
+            "Beagle Dog",
+            16
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            9
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            7
+        ],
+        [
+            "Havanese Dog",
+            1
+        ],
+        [
+            "Keeshond Dog",
+            1
+        ],
+        [
+            "Pug Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Samoyed Dog": [
+        [
+            "Great Pyrenees Dog",
+            100
+        ],
+        [
+            "Samoyed Dog",
+            100
+        ],
+        [
+            "Keeshond Dog",
+            98
+        ],
+        [
+            "Pomeranian Dog",
+            95
+        ],
+        [
+            "Shiba Inu Dog",
+            61
+        ],
+        [
+            "Havanese Dog",
+            12
+        ],
+        [
+            "Newfoundland Dog",
+            9
+        ],
+        [
+            "Japanese Chin Dog",
+            6
+        ],
+        [
+            "Scottish Terrier Dog",
+            4
+        ],
+        [
+            "English Setter Dog",
+            3
+        ],
+        [
+            "Persian Cat",
+            3
+        ],
+        [
+            "Wheaten Terrier Dog",
+            3
+        ],
+        [
+            "Leonberger Dog",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "Chihuahua Dog",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "Saint Bernard Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Scottish Terrier Dog": [
+        [
+            "Scottish Terrier Dog",
+            100
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            80
+        ],
+        [
+            "Wheaten Terrier Dog",
+            73
+        ],
+        [
+            "Havanese Dog",
+            69
+        ],
+        [
+            "Bombay Cat",
+            33
+        ],
+        [
+            "Miniature Pinscher Dog",
+            27
+        ],
+        [
+            "Newfoundland Dog",
+            24
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            18
+        ],
+        [
+            "Pomeranian Dog",
+            16
+        ],
+        [
+            "Chihuahua Dog",
+            15
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            12
+        ],
+        [
+            "German Shorthaired Dog",
+            8
+        ],
+        [
+            "Keeshond Dog",
+            8
+        ],
+        [
+            "Samoyed Dog",
+            5
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            4
+        ],
+        [
+            "American Bulldog Dog",
+            2
+        ],
+        [
+            "Basset Hound Dog",
+            2
+        ],
+        [
+            "English Setter Dog",
+            1
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Japanese Chin Dog",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ]
+    ],
+    "Shiba Inu Dog": [
+        [
+            "Shiba Inu Dog",
+            98
+        ],
+        [
+            "Pomeranian Dog",
+            93
+        ],
+        [
+            "Chihuahua Dog",
+            91
+        ],
+        [
+            "Beagle Dog",
+            66
+        ],
+        [
+            "Samoyed Dog",
+            59
+        ],
+        [
+            "Miniature Pinscher Dog",
+            34
+        ],
+        [
+            "Keeshond Dog",
+            12
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            10
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            5
+        ],
+        [
+            "Great Pyrenees Dog",
+            5
+        ],
+        [
+            "Saint Bernard Dog",
+            4
+        ],
+        [
+            "Abyssinian Cat",
+            3
+        ],
+        [
+            "Basset Hound Dog",
+            3
+        ],
+        [
+            "Boxer Dog",
+            3
+        ],
+        [
+            "Japanese Chin Dog",
+            2
+        ],
+        [
+            "Pug Dog",
+            2
+        ],
+        [
+            "Scottish Terrier Dog",
+            2
+        ],
+        [
+            "Siamese Cat",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            1
+        ],
+        [
+            "English Setter Dog",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Ragdoll Cat",
+            1
+        ],
+        [
+            "Wheaten Terrier Dog",
+            1
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Siamese Cat": [
+        [
+            "Siamese Cat",
+            99
+        ],
+        [
+            "Birman Cat",
+            95
+        ],
+        [
+            "Ragdoll Cat",
+            90
+        ],
+        [
+            "Abyssinian Cat",
+            51
+        ],
+        [
+            "Persian Cat",
+            44
+        ],
+        [
+            "British Shorthair Cat",
+            36
+        ],
+        [
+            "Sphynx Cat",
+            35
+        ],
+        [
+            "Russian Blue Cat",
+            33
+        ],
+        [
+            "Bombay Cat",
+            6
+        ],
+        [
+            "Maine Coon Cat",
+            3
+        ],
+        [
+            "Bengal Cat",
+            2
+        ],
+        [
+            "Pomeranian Dog",
+            1
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "Chihuahua Dog",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Scottish Terrier Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Sphynx Cat": [
+        [
+            "Sphynx Cat",
+            100
+        ],
+        [
+            "Siamese Cat",
+            98
+        ],
+        [
+            "Abyssinian Cat",
+            95
+        ],
+        [
+            "Egyptian Mau Cat",
+            86
+        ],
+        [
+            "Russian Blue Cat",
+            48
+        ],
+        [
+            "Bengal Cat",
+            35
+        ],
+        [
+            "British Shorthair Cat",
+            11
+        ],
+        [
+            "Chihuahua Dog",
+            9
+        ],
+        [
+            "Miniature Pinscher Dog",
+            8
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            2
+        ],
+        [
+            "Persian Cat",
+            2
+        ],
+        [
+            "Ragdoll Cat",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "Bombay Cat",
+            1
+        ],
+        [
+            "Scottish Terrier Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Basset Hound Dog",
+            0
+        ],
+        [
+            "Beagle Dog",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            0
+        ],
+        [
+            "English Setter Dog",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Pug Dog",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Staffordshire Bull Terrier Dog": [
+        [
+            "Staffordshire Bull Terrier Dog",
+            100
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            99
+        ],
+        [
+            "American Bulldog Dog",
+            93
+        ],
+        [
+            "Boxer Dog",
+            81
+        ],
+        [
+            "Miniature Pinscher Dog",
+            46
+        ],
+        [
+            "German Shorthaired Dog",
+            21
+        ],
+        [
+            "Chihuahua Dog",
+            19
+        ],
+        [
+            "Pug Dog",
+            8
+        ],
+        [
+            "Scottish Terrier Dog",
+            8
+        ],
+        [
+            "Beagle Dog",
+            5
+        ],
+        [
+            "Bombay Cat",
+            5
+        ],
+        [
+            "Basset Hound Dog",
+            4
+        ],
+        [
+            "Saint Bernard Dog",
+            4
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            2
+        ],
+        [
+            "English Setter Dog",
+            1
+        ],
+        [
+            "Great Pyrenees Dog",
+            1
+        ],
+        [
+            "Leonberger Dog",
+            1
+        ],
+        [
+            "Newfoundland Dog",
+            1
+        ],
+        [
+            "Samoyed Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Havanese Dog",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Pomeranian Dog",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ],
+        [
+            "Wheaten Terrier Dog",
+            0
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            0
+        ]
+    ],
+    "Wheaten Terrier Dog": [
+        [
+            "Wheaten Terrier Dog",
+            100
+        ],
+        [
+            "Havanese Dog",
+            97
+        ],
+        [
+            "Yorkshire Terrier Dog",
+            71
+        ],
+        [
+            "Scottish Terrier Dog",
+            68
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            62
+        ],
+        [
+            "English Setter Dog",
+            33
+        ],
+        [
+            "Great Pyrenees Dog",
+            24
+        ],
+        [
+            "Leonberger Dog",
+            22
+        ],
+        [
+            "Newfoundland Dog",
+            8
+        ],
+        [
+            "Samoyed Dog",
+            3
+        ],
+        [
+            "Basset Hound Dog",
+            2
+        ],
+        [
+            "Beagle Dog",
+            2
+        ],
+        [
+            "American Bulldog Dog",
+            1
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            1
+        ],
+        [
+            "Chihuahua Dog",
+            1
+        ],
+        [
+            "German Shorthaired Dog",
+            1
+        ],
+        [
+            "Pomeranian Dog",
+            1
+        ],
+        [
+            "Pug Dog",
+            1
+        ],
+        [
+            "Saint Bernard Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "Japanese Chin Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Miniature Pinscher Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ]
+    ],
+    "Yorkshire Terrier Dog": [
+        [
+            "Yorkshire Terrier Dog",
+            99
+        ],
+        [
+            "Havanese Dog",
+            95
+        ],
+        [
+            "Scottish Terrier Dog",
+            88
+        ],
+        [
+            "Wheaten Terrier Dog",
+            66
+        ],
+        [
+            "Miniature Pinscher Dog",
+            61
+        ],
+        [
+            "Pomeranian Dog",
+            44
+        ],
+        [
+            "Chihuahua Dog",
+            25
+        ],
+        [
+            "English Cocker Spaniel Dog",
+            11
+        ],
+        [
+            "Japanese Chin Dog",
+            4
+        ],
+        [
+            "Basset Hound Dog",
+            2
+        ],
+        [
+            "English Setter Dog",
+            2
+        ],
+        [
+            "Beagle Dog",
+            1
+        ],
+        [
+            "Pug Dog",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier Dog",
+            1
+        ],
+        [
+            "Abyssinian Cat",
+            0
+        ],
+        [
+            "American Bulldog Dog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier Dog",
+            0
+        ],
+        [
+            "Bengal Cat",
+            0
+        ],
+        [
+            "Birman Cat",
+            0
+        ],
+        [
+            "Bombay Cat",
+            0
+        ],
+        [
+            "Boxer Dog",
+            0
+        ],
+        [
+            "British Shorthair Cat",
+            0
+        ],
+        [
+            "Egyptian Mau Cat",
+            0
+        ],
+        [
+            "German Shorthaired Dog",
+            0
+        ],
+        [
+            "Great Pyrenees Dog",
+            0
+        ],
+        [
+            "Keeshond Dog",
+            0
+        ],
+        [
+            "Leonberger Dog",
+            0
+        ],
+        [
+            "Maine Coon Cat",
+            0
+        ],
+        [
+            "Newfoundland Dog",
+            0
+        ],
+        [
+            "Persian Cat",
+            0
+        ],
+        [
+            "Ragdoll Cat",
+            0
+        ],
+        [
+            "Russian Blue Cat",
+            0
+        ],
+        [
+            "Saint Bernard Dog",
+            0
+        ],
+        [
+            "Samoyed Dog",
+            0
+        ],
+        [
+            "Shiba Inu Dog",
+            0
+        ],
+        [
+            "Siamese Cat",
+            0
+        ],
+        [
+            "Sphynx Cat",
+            0
+        ]
+    ]
+}

@@ -18,9 +18,7 @@ model.requires_grad_(False)
 
 print("Encoding descriptions...")
 
-
-# description_encodings = compute_description_encodings(model) # Original
-description_encodings = compute_description_encodings(model, True) # My addition
+description_encodings = compute_description_encodings(model)
 
 label_encodings = compute_label_encodings(model)
 
