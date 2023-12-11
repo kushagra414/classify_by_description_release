@@ -92,7 +92,7 @@ if hparams['dataset'] == 'imagenet':
     
         if hparams['descriptor_fname'] is None:
             hparams['descriptor_fname'] = 'descriptors_imagenet'
-        hparams['after_text'] = hparams['label_after_text'] = '.'
+        hparams['after_text'] = hparams['label_after_text'] = ' Bird.'
         
     elif hparams['dataset'] == 'imagenetv2':
         hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
@@ -104,7 +104,7 @@ if hparams['dataset'] == 'imagenet':
 elif hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
-    dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
+    dataset = CUBDataset(hparams['data_dir'], train=True, transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_cub'
 

@@ -108,6 +108,7 @@ class CUBDataset(datasets.ImageFolder):
                 k = '-'.join(split_key[:-1]) + " " + split_key[-1]
             adjusted_dict[k] = v
         self.class_to_idx = adjusted_dict
+        self.classes = list(self.class_to_idx.keys())
                 
                 
 
