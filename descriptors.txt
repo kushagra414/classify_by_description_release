@@ -1,0 +1,18 @@
+{
+    "Laysan Albatross": [
+        "are generally medium-sized with a wingspan of around 6 feet",
+        "have a pink bill with a dark tip",
+        "have a white head and neck with a dark eye patch",
+        "underside is mostly white with dark edges on the underwing",
+        "nest in the Northwestern Hawaiian Islands",
+        "have a black upperwing with a white trailing edge"
+    ],
+    "Sooty Albatross": [
+        "have a uniformly dark upperwing without a distinct pattern",
+        "are larger in size with a wingspan of around 7 feet",
+        "have a dark plumage overall, including the head and neck",
+        "have a dark bill without significant markings",
+        "underside is dark, often with paler edges on the underwing",
+        "nest on sub-Antarctic islands and some isolated islands in the Southern Ocean"
+    ]
+}

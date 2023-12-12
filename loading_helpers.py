@@ -35,7 +35,7 @@ def modify_descriptor(descriptor, apply_changes):
         return make_descriptor_sentence(descriptor)
     return descriptor
 
-def load_gpt_descriptions(hparams, classes_to_load=None):
+def load_gpt_descriptions(hparams, classes_to_load=None, previous_to_new=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
     unmodify_dict = {}
     
@@ -68,10 +68,15 @@ def load_gpt_descriptions(hparams, classes_to_load=None):
             unmodify_dict[k] = {build_descriptor_string(item): item for item in v}
                 
             gpt_descriptions[k] = [build_descriptor_string(item) for item in v]
-            
-            # print an example the first time
+
             if i == 0: #verbose and 
                 print(f"\nExample description for class {k}: \"{gpt_descriptions[k][0]}\"\n")
+
+
+        # if previous_to_new != None:
+        #     for key in gpt_descriptions.keys():
+        #         gpt_descriptions[previous_to_new[key]] = gpt_descriptions.pop(previous_to_new[key])
+
     return gpt_descriptions, unmodify_dict
 
 

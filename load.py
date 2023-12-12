@@ -10,7 +10,8 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-from datasets import _transform, CUBDataset
+from torchvision.datasets import OxfordIIITPet
+from datasets import _transform, get_full_class_labels, fix_class_names, idx_to_label, CUBDataset
 from collections import OrderedDict
 import clip
 
@@ -18,9 +19,10 @@ from loading_helpers import *
 
 
 hparams = {}
+previous_to_new = dict()
 # hyperparameters
 
-hparams['model_size'] = "ViT-B/32" 
+hparams['model_size'] = "ViT-B/16" 
 # Options:
 # ['RN50',
 #  'RN101',
@@ -31,9 +33,9 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'oxfordPet'
 
-hparams['batch_size'] = 1
+hparams['batch_size'] = 64*10
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
 hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend'
 
@@ -76,6 +78,7 @@ hparams['descriptor_fname'] = None
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/home/kush/Desktop/CLIP/CUB/CUB_200_2011' # REPLACE THIS WITH YOUR OWN PATH
+OXFORD_PET_DIR = '/home/kush/Desktop/CLIP/' # REPLACE THIS WITH YOUR OWN PATH
 print(os.getcwd())
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -92,7 +95,7 @@ if hparams['dataset'] == 'imagenet':
     
         if hparams['descriptor_fname'] is None:
             hparams['descriptor_fname'] = 'descriptors_imagenet'
-        hparams['after_text'] = hparams['label_after_text'] = ' Bird.'
+        hparams['after_text'] = hparams['label_after_text'] = '.'
         
     elif hparams['dataset'] == 'imagenetv2':
         hparams['data_dir'] = pathlib.Path(IMAGENETV2_DIR)
@@ -104,9 +107,20 @@ if hparams['dataset'] == 'imagenet':
 elif hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
-    dataset = CUBDataset(hparams['data_dir'], train=True, transform=tfms)
+    dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
     hparams['descriptor_fname'] = 'descriptors_cub'
+
+elif hparams['dataset'] == 'oxfordPet':
+    hparams['data_dir'] = pathlib.Path(OXFORD_PET_DIR)
+    dataset = OxfordIIITPet(root=hparams['data_dir'], split='test', transform=tfms)
+    classes_to_load = dataset.classes.copy()
+    complete_class_names = get_full_class_labels(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
+    fix_class_names(dataset, complete_class_names)
+    hparams['descriptor_fname'] = 'descriptors_pets'
+    # classes_to_load = list(previous_to_new.keys())
+    # print(previous_to_new)
+    classes_to_load = dataset.classes
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
@@ -115,6 +129,7 @@ hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
 print("Creating descriptors...")
 
 gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
+
 label_to_classname = list(gpt_descriptions.keys())
 
 
@@ -126,6 +141,45 @@ def compute_description_encodings(model):
         tokens = clip.tokenize(v).to(hparams['device'])
         description_encodings[k] = F.normalize(model.encode_text(tokens))
     return description_encodings
+
+def compute_description_encodings_mine_oxp(model):
+    hparams['category_name_inclusion'] = "do-nothing"
+    hparams['apply_descriptor_modification'] = False
+    gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
+    label_to_classname = list(gpt_descriptions.keys())
+    description_encodings = OrderedDict()
+    for k, v in gpt_descriptions.items():
+        tokens = clip.tokenize(v, truncate = True).to(hparams['device'])
+        description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens), "add"))
+        # label_encoding = F.normalize(model.encode_text(clip.tokenize(hparams['label_before_text'] + wordify(k) + hparams['label_after_text']).to(hparams['device'])))
+        # description_encodings[k] = 0.2*description_encodings[k] + 0.8*label_encoding
+    return description_encodings
+
+def compute_description_encodings_mine_cub(model):
+    hparams['descriptor_fname'] = 'descriptors_cub_my'
+    hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
+    # hparams['category_name_inclusion'] = "do-nothing"
+    # hparams['apply_descriptor_modification'] = False
+    gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
+    label_to_classname = list(gpt_descriptions.keys())
+    description_encodings = OrderedDict()
+    for k, v in gpt_descriptions.items():
+        tokens = clip.tokenize(v, truncate = True).to(hparams['device'])
+        description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens), "add"))
+        # label_encoding = F.normalize(model.encode_text(clip.tokenize(hparams['label_before_text'] + wordify(k) + hparams['label_after_text']).to(hparams['device'])))
+        # description_encodings[k] = 0.2*description_encodings[k] + 0.8*label_encoding
+    return description_encodings
+
+
+# My addition
+def encoding_operations(encodings, operation="add"):
+    if operation == "add":
+        return encodings.sum(dim = 0, keepdim=True)
+    elif operation == "mean":
+        return encodings.mean(dim = 0, keepdim=True)
+    else:
+        return encodings
+
 
 def compute_label_encodings(model):
     label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))

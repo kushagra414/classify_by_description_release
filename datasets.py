@@ -121,6 +121,39 @@ def _transform(n_px):
         transforms.CenterCrop(n_px),
         lambda image: image.convert("RGB"),
         transforms.ToTensor(),
-        transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.26130258, 0.27577711)),
+        # transforms.Normalize((0.48145466, 0.4578275, 0.40821073), (0.26862954, 0.26130258, 0.27577711)), # CUB
+        transforms.Normalize((0.4827, 0.4472, 0.3974), (0.2289, 0.2260, 0.2275)), # Oxford Pets
     ])
     
+
+def get_full_class_labels(file_path):
+    classes_full_names = set()
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith('#'):
+                continue
+            class_id, _, species, _ = line.strip('\n').split(' ', 3)
+            class_id = ' '.join(class_id.split('_')[0: -1]).title()
+            if int(species) == 1:
+                class_id += ' Cat'
+            else:
+                class_id += ' Dog'
+            classes_full_names.add(class_id)
+    return classes_full_names
+
+
+def fix_class_names(dataset, complete_class_names):
+    for class_name in complete_class_names:
+        incomplete_class_name = ' '.join(class_name.split(' ')[0: -1]).strip()
+        find_index = lambda l, x: l.index(x) if x in l else -1
+        index_of_incorrect_class = find_index(dataset.classes, incomplete_class_name)
+        if index_of_incorrect_class != -1:
+            dataset.classes[index_of_incorrect_class] = class_name
+        idx = dataset.class_to_idx.pop(incomplete_class_name, -1)
+        if idx != -1:
+            dataset.class_to_idx[class_name] = idx
+
+
+def idx_to_label(label_to_idx):
+    dataset_items = list(label_to_idx.items())
+    return dict(map(lambda x: x[::-1], dataset_items))

@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-from datasets import _transform, CUBDataset
+from datasets import _transform, get_full_class_labels, fix_class_names, CUBDataset
 from collections import OrderedDict
 import clip
 
@@ -38,7 +38,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'cub'
+hparams['dataset'] = 'oxfordPet'
 
 hparams['batch_size'] = 64*10
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
@@ -80,6 +80,7 @@ hparams['descriptor_fname'] = None
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
 CUB_DIR = '/home/kush/Desktop/CLIP/CUB/CUB_200_2011' # REPLACE THIS WITH YOUR OWN PATH
+OXFORD_PET_DIR = '/home/kush/Desktop/CLIP/' # REPLACE THIS WITH YOUR OWN PATH
 
 # PyTorch datasets
 tfms = _transform(hparams['image_size'])
@@ -113,6 +114,16 @@ elif hparams['dataset'] == 'cub':
     classes_to_load = None #dataset.classes
     # hparams['descriptor_fname'] = 'descriptors_cub'
     hparams['descriptor_fname'] = 'descriptors_cub'
+
+elif hparams['dataset'] == 'oxfordPet':
+        hparams['data_dir'] = pathlib.Path(OXFORD_PET_DIR)
+        dataset = OxfordIIITPet(root=hparams['data_dir'], split='test', transform=tfms)
+        complete_class_names = get_full_class_labels(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
+        fix_class_names(dataset, complete_class_names)
+        hparams['descriptor_fname'] = 'descriptors_pets_my'
+        classes_to_load = dataset.classes
+        # dataset.classes = classes_to_load
+
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
