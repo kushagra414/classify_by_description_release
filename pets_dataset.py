@@ -30,5 +30,5 @@ def _transform(n_px):
         transforms.CenterCrop(n_px),
         lambda image: image.convert("RGB"),
         transforms.ToTensor(),
-        # transforms.Normalize((0.4827, 0.4472, 0.3974), (0.2289, 0.2260, 0.2275)),  # Oxford Pets
+        transforms.Normalize((0.4827, 0.4472, 0.3974), (0.2289, 0.2260, 0.2275)),  # Oxford Pets
     ])

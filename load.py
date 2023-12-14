@@ -110,7 +110,7 @@ elif hparams['dataset'] == 'cub':
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub_top_5'
+    hparams['descriptor_fname'] = 'descriptors_cub_top5'
     hparams['has_activations'] = True
 
 
@@ -119,7 +119,8 @@ elif hparams['dataset'] == 'pets':
     dataset = PetsDataset(root=hparams['data_dir'], split='test', transform=tfms)
     class_to_species = dataset.get_species(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
     hparams['descriptor_fname'] = 'descriptors_pets_top5'
-    classes_to_load = None
+    classes_to_load = dataset.classes
+    hparams['has_activations'] = True
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
@@ -183,7 +184,7 @@ def compute_activations(hparams, model, diff_dict):
     # keys = list(map(lambda x: f"{x} is a type of a bird that", diff_dict.keys())) # Using a template. For CUB DS
     # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
     keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
-    keys = diff_dict.keys() # Using on class labels
+    # keys = diff_dict.keys() # Using on class labels
     class_info = zip(diff_dict.keys(), compute_label_encodings(model, keys))
     for class_, label_encoding in class_info:
         if not hparams['has_activations']:
@@ -191,8 +192,8 @@ def compute_activations(hparams, model, diff_dict):
                                                 dtype=torch.float16).to(hparams['device'])
             continue
 
-    #     descriptions = map(lambda x: f"{k} {x}", diff_dict[class_].values())
         descriptions = diff_dict[class_].keys()
+        # descriptions = diff_dict[class_].keys()
         # Find similarity between the class label and the descriptions
         description_encodings = compute_label_encodings(model, descriptions)
         sim = label_encoding @ description_encodings.T
@@ -215,11 +216,11 @@ def encoding_operations(encodings, operation="add"):
         return encodings
 
 
-def aggregate_similarity(similarity_matrix_chunk, activations, aggregation_method='weighted_sum'):
+def aggregate_similarity(similarity_matrix_chunk, activations = None, aggregation_method='weighted_sum'):
     if aggregation_method == 'max': return similarity_matrix_chunk.max(dim=1)[0]
     elif aggregation_method == 'sum': return similarity_matrix_chunk.sum(dim=1)
     elif aggregation_method == 'mean': return similarity_matrix_chunk.mean(dim=1)
-    elif aggregation_method == 'weighted_sum': 
+    elif aggregation_method == 'weighted_sum' and activations != None: 
         similarity_matrix_chunk = similarity_matrix_chunk * activations
         return aggregate_similarity(similarity_matrix_chunk, activations, 'sum')
     else: raise ValueError("Unknown aggregate_similarity")

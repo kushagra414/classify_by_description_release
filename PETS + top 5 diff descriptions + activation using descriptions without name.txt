@@ -1,4 +1,4 @@
-Mine with weighted sum, activation created using - (class template vs modified desc):-
+Mine with weighted sum, activation created using - (class template vs unmodified desc):-
 
 ViT-B/32
 
@@ -10,7 +10,7 @@ Total CLIP-Standard Top-5 Accuracy:  96.18424773216248
 
 ViT-B/16
 
-Total Description-based Top-1 Accuracy:  87.35350370407104
+Total Description-based Top-1 Accuracy:  87.18997240066528
 Total Description-based Top-5 Accuracy:  99.6184229850769
 Total CLIP-Standard Top-1 Accuracy:  81.60261511802673
 Total CLIP-Standard Top-5 Accuracy:  96.34777903556824
@@ -18,7 +18,7 @@ Total CLIP-Standard Top-5 Accuracy:  96.34777903556824
 
 ViT-L/14
 
-Total Description-based Top-1 Accuracy:  93.4041976928711
+Total Description-based Top-1 Accuracy:  93.37694048881531
 Total Description-based Top-5 Accuracy:  99.89097714424133
 Total CLIP-Standard Top-1 Accuracy:  88.25293183326721
 Total CLIP-Standard Top-5 Accuracy:  98.06486964225769

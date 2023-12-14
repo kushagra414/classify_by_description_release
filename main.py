@@ -2,8 +2,8 @@ from load import *
 import torchmetrics
 from tqdm import tqdm
 
-def perform_original():
-    print("Performing Original....")
+def perform_mine():
+    print("Performing Mine....")
     print("Encoding descriptions...")
 
     description_encodings = compute_description_encodings(model)
@@ -78,22 +78,21 @@ def perform_original():
         print(key, value)
 
 
-def perform_mine():
-    print("\n\nPerforming Mine....")
+def perform_original():
+    print("\n\nPerforming Original....")
     print("Encoding descriptions...")
 
-    description_encodings = compute_description_encodings_mine_cub(model)
+    description_encodings = compute_description_encodings(model)
 
     label_encodings = compute_label_encodings(model)
 
+
     print("Evaluating...")
     lang_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=n_classes).to(device)
-    lang_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5, task="multiclass", num_classes=n_classes).to(device)
+    lang_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5,task="multiclass", num_classes=n_classes).to(device)
 
     clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=n_classes).to(device)
-    clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5, task="multiclass", num_classes=n_classes).to(device)
-
-
+    clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5,task="multiclass", num_classes=n_classes).to(device)
 
     for batch_number, batch in enumerate(tqdm(dataloader)):
         images, labels = batch
@@ -162,6 +161,6 @@ device = torch.device(hparams['device'])
 model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
 model.eval()
 model.requires_grad_(False)
-perform_original() # Perform original process
+perform_mine() # Perform original process
 
 # perform_mine()
