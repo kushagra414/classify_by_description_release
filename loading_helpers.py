@@ -1,6 +1,5 @@
 import torch
 import os
-
 import numpy as np
 import random
 
@@ -24,6 +23,8 @@ def make_descriptor_sentence(descriptor):
         return f"which {descriptor}"
     elif descriptor.startswith('used'):
         return f"which is {descriptor}"
+    elif descriptor.startswith('have') or descriptor.startswith('are'):
+        return f"which {descriptor}"
     else:
         return f"which has {descriptor}"
     
@@ -35,8 +36,14 @@ def modify_descriptor(descriptor, apply_changes):
         return make_descriptor_sentence(descriptor)
     return descriptor
 
+
+def remove_duplicates(gpt_descriptions):
+    for k, v in gpt_descriptions.items():
+        gpt_descriptions[k] = list(set(v))
+
 def load_gpt_descriptions(hparams, classes_to_load=None, previous_to_new=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
+    remove_duplicates(gpt_descriptions_unordered)
     unmodify_dict = {}
     
     

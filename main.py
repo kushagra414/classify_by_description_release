@@ -8,6 +8,8 @@ def perform_original():
 
     description_encodings = compute_description_encodings(model)
 
+    get_activations = compute_activations(hparams, model, unmodify_dict)
+
     label_encodings = compute_label_encodings(model)
 
     print("Evaluating...")
@@ -16,6 +18,7 @@ def perform_original():
 
     clip_accuracy_metric = torchmetrics.Accuracy(task="multiclass", num_classes=n_classes).to(device)
     clip_accuracy_metric_top5 = torchmetrics.Accuracy(top_k=5, task="multiclass", num_classes=n_classes).to(device)
+
 
     for batch_number, batch in enumerate(tqdm(dataloader)):
         images, labels = batch
@@ -43,7 +46,9 @@ def perform_original():
             dot_product_matrix = image_encodings @ v.T
             
             image_description_similarity[i] = dot_product_matrix
-            image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])
+
+            activation = get_activations[k]
+            image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i], activation)
             
             
         # create tensor of similarity means

@@ -1,0 +1,5552 @@
+{
+    "Abyssinian": [
+        [
+            "Egyptian Mau",
+            98
+        ],
+        [
+            "Abyssinian",
+            97
+        ],
+        [
+            "Bengal",
+            83
+        ],
+        [
+            "Sphynx",
+            63
+        ],
+        [
+            "Persian",
+            52
+        ],
+        [
+            "Siamese",
+            37
+        ],
+        [
+            "British Shorthair",
+            21
+        ],
+        [
+            "Miniature Pinscher",
+            12
+        ],
+        [
+            "Bombay",
+            10
+        ],
+        [
+            "Russian Blue",
+            7
+        ],
+        [
+            "Birman",
+            5
+        ],
+        [
+            "Ragdoll",
+            3
+        ],
+        [
+            "Maine Coon",
+            2
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "American Bulldog": [
+        [
+            "American Bulldog",
+            100
+        ],
+        [
+            "American Pit Bull Terrier",
+            100
+        ],
+        [
+            "Boxer",
+            100
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            99
+        ],
+        [
+            "Saint Bernard",
+            75
+        ],
+        [
+            "Sphynx",
+            7
+        ],
+        [
+            "Chihuahua",
+            4
+        ],
+        [
+            "Great Pyrenees",
+            4
+        ],
+        [
+            "Beagle",
+            3
+        ],
+        [
+            "Japanese Chin",
+            2
+        ],
+        [
+            "Samoyed",
+            2
+        ],
+        [
+            "Basset Hound",
+            1
+        ],
+        [
+            "Bombay",
+            1
+        ],
+        [
+            "German Shorthaired",
+            1
+        ],
+        [
+            "Miniature Pinscher",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "American Pit Bull Terrier": [
+        [
+            "American Pit Bull Terrier",
+            100
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            100
+        ],
+        [
+            "Boxer",
+            94
+        ],
+        [
+            "American Bulldog",
+            92
+        ],
+        [
+            "Sphynx",
+            36
+        ],
+        [
+            "German Shorthaired",
+            17
+        ],
+        [
+            "Chihuahua",
+            15
+        ],
+        [
+            "Miniature Pinscher",
+            15
+        ],
+        [
+            "Basset Hound",
+            7
+        ],
+        [
+            "Saint Bernard",
+            4
+        ],
+        [
+            "Wheaten Terrier",
+            4
+        ],
+        [
+            "Beagle",
+            3
+        ],
+        [
+            "Russian Blue",
+            3
+        ],
+        [
+            "Abyssinian",
+            2
+        ],
+        [
+            "Newfoundland",
+            2
+        ],
+        [
+            "Bengal",
+            1
+        ],
+        [
+            "Bombay",
+            1
+        ],
+        [
+            "English Setter",
+            1
+        ],
+        [
+            "Great Pyrenees",
+            1
+        ],
+        [
+            "Scottish Terrier",
+            1
+        ],
+        [
+            "Siamese",
+            1
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Basset Hound": [
+        [
+            "Basset Hound",
+            100
+        ],
+        [
+            "Beagle",
+            99
+        ],
+        [
+            "German Shorthaired",
+            94
+        ],
+        [
+            "Saint Bernard",
+            80
+        ],
+        [
+            "Boxer",
+            45
+        ],
+        [
+            "English Setter",
+            29
+        ],
+        [
+            "English Cocker Spaniel",
+            23
+        ],
+        [
+            "Yorkshire Terrier",
+            10
+        ],
+        [
+            "Chihuahua",
+            7
+        ],
+        [
+            "Newfoundland",
+            7
+        ],
+        [
+            "Bombay",
+            3
+        ],
+        [
+            "American Pit Bull Terrier",
+            2
+        ],
+        [
+            "American Bulldog",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Beagle": [
+        [
+            "Basset Hound",
+            100
+        ],
+        [
+            "Beagle",
+            100
+        ],
+        [
+            "Boxer",
+            83
+        ],
+        [
+            "German Shorthaired",
+            43
+        ],
+        [
+            "American Pit Bull Terrier",
+            40
+        ],
+        [
+            "Saint Bernard",
+            39
+        ],
+        [
+            "English Setter",
+            33
+        ],
+        [
+            "Chihuahua",
+            24
+        ],
+        [
+            "Yorkshire Terrier",
+            11
+        ],
+        [
+            "Bengal",
+            6
+        ],
+        [
+            "Pug",
+            5
+        ],
+        [
+            "Bombay",
+            4
+        ],
+        [
+            "Miniature Pinscher",
+            4
+        ],
+        [
+            "Japanese Chin",
+            3
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            3
+        ],
+        [
+            "English Cocker Spaniel",
+            1
+        ],
+        [
+            "Wheaten Terrier",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ]
+    ],
+    "Bengal": [
+        [
+            "Egyptian Mau",
+            100
+        ],
+        [
+            "Bengal",
+            99
+        ],
+        [
+            "Abyssinian",
+            95
+        ],
+        [
+            "Persian",
+            78
+        ],
+        [
+            "Birman",
+            36
+        ],
+        [
+            "Maine Coon",
+            36
+        ],
+        [
+            "British Shorthair",
+            19
+        ],
+        [
+            "Sphynx",
+            17
+        ],
+        [
+            "Bombay",
+            7
+        ],
+        [
+            "Ragdoll",
+            6
+        ],
+        [
+            "Siamese",
+            6
+        ],
+        [
+            "Miniature Pinscher",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Birman": [
+        [
+            "Birman",
+            100
+        ],
+        [
+            "Persian",
+            100
+        ],
+        [
+            "Ragdoll",
+            100
+        ],
+        [
+            "Siamese",
+            99
+        ],
+        [
+            "Bengal",
+            34
+        ],
+        [
+            "Pomeranian",
+            27
+        ],
+        [
+            "Japanese Chin",
+            18
+        ],
+        [
+            "British Shorthair",
+            10
+        ],
+        [
+            "Maine Coon",
+            8
+        ],
+        [
+            "Keeshond",
+            3
+        ],
+        [
+            "Sphynx",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Bombay": [
+        [
+            "Egyptian Mau",
+            80
+        ],
+        [
+            "Persian",
+            77
+        ],
+        [
+            "Siamese",
+            64
+        ],
+        [
+            "British Shorthair",
+            55
+        ],
+        [
+            "Sphynx",
+            34
+        ],
+        [
+            "Birman",
+            30
+        ],
+        [
+            "Russian Blue",
+            29
+        ],
+        [
+            "Bombay",
+            24
+        ],
+        [
+            "Abyssinian",
+            18
+        ],
+        [
+            "Bengal",
+            10
+        ],
+        [
+            "Ragdoll",
+            10
+        ],
+        [
+            "Maine Coon",
+            6
+        ],
+        [
+            "German Shorthaired",
+            1
+        ],
+        [
+            "Miniature Pinscher",
+            1
+        ],
+        [
+            "Newfoundland",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Boxer": [
+        [
+            "Boxer",
+            99
+        ],
+        [
+            "American Bulldog",
+            93
+        ],
+        [
+            "Saint Bernard",
+            83
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            82
+        ],
+        [
+            "American Pit Bull Terrier",
+            76
+        ],
+        [
+            "Japanese Chin",
+            23
+        ],
+        [
+            "Pug",
+            15
+        ],
+        [
+            "German Shorthaired",
+            6
+        ],
+        [
+            "Miniature Pinscher",
+            5
+        ],
+        [
+            "Abyssinian",
+            4
+        ],
+        [
+            "Chihuahua",
+            2
+        ],
+        [
+            "English Cocker Spaniel",
+            2
+        ],
+        [
+            "Newfoundland",
+            2
+        ],
+        [
+            "Basset Hound",
+            1
+        ],
+        [
+            "Beagle",
+            1
+        ],
+        [
+            "Leonberger",
+            1
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "British Shorthair": [
+        [
+            "British Shorthair",
+            100
+        ],
+        [
+            "Russian Blue",
+            91
+        ],
+        [
+            "Egyptian Mau",
+            88
+        ],
+        [
+            "Persian",
+            81
+        ],
+        [
+            "Birman",
+            56
+        ],
+        [
+            "Ragdoll",
+            23
+        ],
+        [
+            "Sphynx",
+            21
+        ],
+        [
+            "Abyssinian",
+            17
+        ],
+        [
+            "Siamese",
+            14
+        ],
+        [
+            "Bombay",
+            6
+        ],
+        [
+            "Bengal",
+            1
+        ],
+        [
+            "Maine Coon",
+            1
+        ],
+        [
+            "Scottish Terrier",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Chihuahua": [
+        [
+            "Chihuahua",
+            100
+        ],
+        [
+            "Miniature Pinscher",
+            100
+        ],
+        [
+            "Japanese Chin",
+            70
+        ],
+        [
+            "Yorkshire Terrier",
+            52
+        ],
+        [
+            "Pomeranian",
+            50
+        ],
+        [
+            "American Pit Bull Terrier",
+            49
+        ],
+        [
+            "Boxer",
+            16
+        ],
+        [
+            "Pug",
+            13
+        ],
+        [
+            "Scottish Terrier",
+            13
+        ],
+        [
+            "Beagle",
+            8
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            8
+        ],
+        [
+            "Persian",
+            7
+        ],
+        [
+            "Sphynx",
+            7
+        ],
+        [
+            "Shiba Inu",
+            4
+        ],
+        [
+            "Abyssinian",
+            1
+        ],
+        [
+            "Havanese",
+            1
+        ],
+        [
+            "Siamese",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Egyptian Mau": [
+        [
+            "Egyptian Mau",
+            97
+        ],
+        [
+            "Bengal",
+            92
+        ],
+        [
+            "Abyssinian",
+            68
+        ],
+        [
+            "British Shorthair",
+            58
+        ],
+        [
+            "Persian",
+            55
+        ],
+        [
+            "German Shorthaired",
+            36
+        ],
+        [
+            "Russian Blue",
+            23
+        ],
+        [
+            "Maine Coon",
+            18
+        ],
+        [
+            "Sphynx",
+            13
+        ],
+        [
+            "Birman",
+            11
+        ],
+        [
+            "Siamese",
+            7
+        ],
+        [
+            "Bombay",
+            5
+        ],
+        [
+            "Ragdoll",
+            2
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "English Cocker Spaniel": [
+        [
+            "English Cocker Spaniel",
+            100
+        ],
+        [
+            "English Setter",
+            98
+        ],
+        [
+            "German Shorthaired",
+            63
+        ],
+        [
+            "Basset Hound",
+            49
+        ],
+        [
+            "Yorkshire Terrier",
+            42
+        ],
+        [
+            "Scottish Terrier",
+            30
+        ],
+        [
+            "Japanese Chin",
+            19
+        ],
+        [
+            "Boxer",
+            18
+        ],
+        [
+            "Wheaten Terrier",
+            17
+        ],
+        [
+            "Havanese",
+            15
+        ],
+        [
+            "Newfoundland",
+            15
+        ],
+        [
+            "Leonberger",
+            10
+        ],
+        [
+            "Beagle",
+            9
+        ],
+        [
+            "Saint Bernard",
+            7
+        ],
+        [
+            "Ragdoll",
+            4
+        ],
+        [
+            "Bombay",
+            2
+        ],
+        [
+            "Bengal",
+            1
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ]
+    ],
+    "English Setter": [
+        [
+            "English Setter",
+            100
+        ],
+        [
+            "English Cocker Spaniel",
+            98
+        ],
+        [
+            "German Shorthaired",
+            95
+        ],
+        [
+            "Basset Hound",
+            51
+        ],
+        [
+            "Saint Bernard",
+            43
+        ],
+        [
+            "Newfoundland",
+            19
+        ],
+        [
+            "Great Pyrenees",
+            18
+        ],
+        [
+            "Japanese Chin",
+            16
+        ],
+        [
+            "Bengal",
+            12
+        ],
+        [
+            "Beagle",
+            9
+        ],
+        [
+            "Boxer",
+            9
+        ],
+        [
+            "Havanese",
+            7
+        ],
+        [
+            "Wheaten Terrier",
+            6
+        ],
+        [
+            "Leonberger",
+            4
+        ],
+        [
+            "Ragdoll",
+            4
+        ],
+        [
+            "Yorkshire Terrier",
+            4
+        ],
+        [
+            "Birman",
+            2
+        ],
+        [
+            "Scottish Terrier",
+            2
+        ],
+        [
+            "Bombay",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ]
+    ],
+    "German Shorthaired": [
+        [
+            "German Shorthaired",
+            100
+        ],
+        [
+            "English Setter",
+            99
+        ],
+        [
+            "English Cocker Spaniel",
+            66
+        ],
+        [
+            "American Pit Bull Terrier",
+            65
+        ],
+        [
+            "Boxer",
+            56
+        ],
+        [
+            "Basset Hound",
+            46
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            16
+        ],
+        [
+            "Bengal",
+            9
+        ],
+        [
+            "Scottish Terrier",
+            9
+        ],
+        [
+            "Beagle",
+            6
+        ],
+        [
+            "Egyptian Mau",
+            6
+        ],
+        [
+            "Chihuahua",
+            5
+        ],
+        [
+            "Abyssinian",
+            4
+        ],
+        [
+            "Newfoundland",
+            4
+        ],
+        [
+            "Miniature Pinscher",
+            3
+        ],
+        [
+            "Russian Blue",
+            3
+        ],
+        [
+            "American Bulldog",
+            1
+        ],
+        [
+            "Saint Bernard",
+            1
+        ],
+        [
+            "Wheaten Terrier",
+            1
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Great Pyrenees": [
+        [
+            "Great Pyrenees",
+            100
+        ],
+        [
+            "Saint Bernard",
+            96
+        ],
+        [
+            "Samoyed",
+            91
+        ],
+        [
+            "Leonberger",
+            83
+        ],
+        [
+            "Newfoundland",
+            68
+        ],
+        [
+            "English Setter",
+            30
+        ],
+        [
+            "Keeshond",
+            18
+        ],
+        [
+            "Persian",
+            6
+        ],
+        [
+            "English Cocker Spaniel",
+            3
+        ],
+        [
+            "Maine Coon",
+            2
+        ],
+        [
+            "Wheaten Terrier",
+            2
+        ],
+        [
+            "Basset Hound",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Havanese": [
+        [
+            "Havanese",
+            100
+        ],
+        [
+            "Wheaten Terrier",
+            97
+        ],
+        [
+            "Yorkshire Terrier",
+            89
+        ],
+        [
+            "English Cocker Spaniel",
+            40
+        ],
+        [
+            "Scottish Terrier",
+            28
+        ],
+        [
+            "Japanese Chin",
+            22
+        ],
+        [
+            "Samoyed",
+            16
+        ],
+        [
+            "Persian",
+            15
+        ],
+        [
+            "Pomeranian",
+            14
+        ],
+        [
+            "Beagle",
+            13
+        ],
+        [
+            "Newfoundland",
+            13
+        ],
+        [
+            "Keeshond",
+            10
+        ],
+        [
+            "Great Pyrenees",
+            8
+        ],
+        [
+            "Boxer",
+            7
+        ],
+        [
+            "Chihuahua",
+            7
+        ],
+        [
+            "Basset Hound",
+            5
+        ],
+        [
+            "Saint Bernard",
+            5
+        ],
+        [
+            "English Setter",
+            4
+        ],
+        [
+            "Leonberger",
+            3
+        ],
+        [
+            "Ragdoll",
+            3
+        ],
+        [
+            "Birman",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ]
+    ],
+    "Japanese Chin": [
+        [
+            "Japanese Chin",
+            100
+        ],
+        [
+            "Pomeranian",
+            96
+        ],
+        [
+            "Chihuahua",
+            85
+        ],
+        [
+            "English Cocker Spaniel",
+            43
+        ],
+        [
+            "Persian",
+            35
+        ],
+        [
+            "Boxer",
+            33
+        ],
+        [
+            "Saint Bernard",
+            29
+        ],
+        [
+            "Birman",
+            23
+        ],
+        [
+            "Ragdoll",
+            15
+        ],
+        [
+            "Pug",
+            10
+        ],
+        [
+            "Newfoundland",
+            7
+        ],
+        [
+            "Havanese",
+            5
+        ],
+        [
+            "Siamese",
+            5
+        ],
+        [
+            "Yorkshire Terrier",
+            4
+        ],
+        [
+            "Leonberger",
+            3
+        ],
+        [
+            "Miniature Pinscher",
+            2
+        ],
+        [
+            "American Bulldog",
+            1
+        ],
+        [
+            "Beagle",
+            1
+        ],
+        [
+            "English Setter",
+            1
+        ],
+        [
+            "Great Pyrenees",
+            1
+        ],
+        [
+            "Keeshond",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Keeshond": [
+        [
+            "Keeshond",
+            99
+        ],
+        [
+            "Pomeranian",
+            99
+        ],
+        [
+            "Leonberger",
+            83
+        ],
+        [
+            "Samoyed",
+            77
+        ],
+        [
+            "Yorkshire Terrier",
+            45
+        ],
+        [
+            "Newfoundland",
+            37
+        ],
+        [
+            "Scottish Terrier",
+            27
+        ],
+        [
+            "Persian",
+            11
+        ],
+        [
+            "Birman",
+            5
+        ],
+        [
+            "Havanese",
+            4
+        ],
+        [
+            "Russian Blue",
+            2
+        ],
+        [
+            "Boxer",
+            1
+        ],
+        [
+            "Great Pyrenees",
+            1
+        ],
+        [
+            "Japanese Chin",
+            1
+        ],
+        [
+            "Miniature Pinscher",
+            1
+        ],
+        [
+            "Ragdoll",
+            1
+        ],
+        [
+            "Shiba Inu",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Leonberger": [
+        [
+            "Leonberger",
+            100
+        ],
+        [
+            "Saint Bernard",
+            96
+        ],
+        [
+            "Newfoundland",
+            92
+        ],
+        [
+            "Keeshond",
+            81
+        ],
+        [
+            "Great Pyrenees",
+            79
+        ],
+        [
+            "Boxer",
+            21
+        ],
+        [
+            "Pomeranian",
+            9
+        ],
+        [
+            "Persian",
+            6
+        ],
+        [
+            "English Setter",
+            5
+        ],
+        [
+            "Samoyed",
+            3
+        ],
+        [
+            "Wheaten Terrier",
+            3
+        ],
+        [
+            "English Cocker Spaniel",
+            2
+        ],
+        [
+            "Yorkshire Terrier",
+            2
+        ],
+        [
+            "Bengal",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ]
+    ],
+    "Maine Coon": [
+        [
+            "Maine Coon",
+            99
+        ],
+        [
+            "Persian",
+            90
+        ],
+        [
+            "Birman",
+            83
+        ],
+        [
+            "Ragdoll",
+            72
+        ],
+        [
+            "Bengal",
+            59
+        ],
+        [
+            "Egyptian Mau",
+            36
+        ],
+        [
+            "Sphynx",
+            25
+        ],
+        [
+            "Russian Blue",
+            10
+        ],
+        [
+            "British Shorthair",
+            9
+        ],
+        [
+            "Abyssinian",
+            8
+        ],
+        [
+            "Japanese Chin",
+            2
+        ],
+        [
+            "Siamese",
+            2
+        ],
+        [
+            "Bombay",
+            1
+        ],
+        [
+            "Havanese",
+            1
+        ],
+        [
+            "Newfoundland",
+            1
+        ],
+        [
+            "Pomeranian",
+            1
+        ],
+        [
+            "Scottish Terrier",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Miniature Pinscher": [
+        [
+            "Miniature Pinscher",
+            100
+        ],
+        [
+            "Chihuahua",
+            77
+        ],
+        [
+            "Scottish Terrier",
+            76
+        ],
+        [
+            "Yorkshire Terrier",
+            72
+        ],
+        [
+            "Boxer",
+            41
+        ],
+        [
+            "American Pit Bull Terrier",
+            38
+        ],
+        [
+            "Abyssinian",
+            28
+        ],
+        [
+            "German Shorthaired",
+            15
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            15
+        ],
+        [
+            "Pomeranian",
+            11
+        ],
+        [
+            "Shiba Inu",
+            9
+        ],
+        [
+            "Sphynx",
+            7
+        ],
+        [
+            "Bombay",
+            3
+        ],
+        [
+            "Japanese Chin",
+            3
+        ],
+        [
+            "Beagle",
+            2
+        ],
+        [
+            "Egyptian Mau",
+            1
+        ],
+        [
+            "Pug",
+            1
+        ],
+        [
+            "Siamese",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Newfoundland": [
+        [
+            "Leonberger",
+            98
+        ],
+        [
+            "Newfoundland",
+            98
+        ],
+        [
+            "Saint Bernard",
+            73
+        ],
+        [
+            "English Cocker Spaniel",
+            55
+        ],
+        [
+            "Great Pyrenees",
+            53
+        ],
+        [
+            "Keeshond",
+            35
+        ],
+        [
+            "Samoyed",
+            20
+        ],
+        [
+            "Boxer",
+            14
+        ],
+        [
+            "Scottish Terrier",
+            13
+        ],
+        [
+            "Pomeranian",
+            10
+        ],
+        [
+            "English Setter",
+            7
+        ],
+        [
+            "Persian",
+            6
+        ],
+        [
+            "Yorkshire Terrier",
+            4
+        ],
+        [
+            "German Shorthaired",
+            3
+        ],
+        [
+            "Havanese",
+            3
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            3
+        ],
+        [
+            "Wheaten Terrier",
+            3
+        ],
+        [
+            "Pug",
+            1
+        ],
+        [
+            "Ragdoll",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ]
+    ],
+    "Persian": [
+        [
+            "Persian",
+            99
+        ],
+        [
+            "Birman",
+            95
+        ],
+        [
+            "British Shorthair",
+            72
+        ],
+        [
+            "Maine Coon",
+            64
+        ],
+        [
+            "Ragdoll",
+            46
+        ],
+        [
+            "Japanese Chin",
+            42
+        ],
+        [
+            "Sphynx",
+            21
+        ],
+        [
+            "Egyptian Mau",
+            15
+        ],
+        [
+            "Siamese",
+            15
+        ],
+        [
+            "Abyssinian",
+            12
+        ],
+        [
+            "Pomeranian",
+            10
+        ],
+        [
+            "Russian Blue",
+            3
+        ],
+        [
+            "Bengal",
+            2
+        ],
+        [
+            "Bombay",
+            2
+        ],
+        [
+            "Boxer",
+            2
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Pomeranian": [
+        [
+            "Pomeranian",
+            100
+        ],
+        [
+            "Keeshond",
+            84
+        ],
+        [
+            "Yorkshire Terrier",
+            73
+        ],
+        [
+            "Chihuahua",
+            54
+        ],
+        [
+            "Japanese Chin",
+            51
+        ],
+        [
+            "Samoyed",
+            39
+        ],
+        [
+            "Birman",
+            35
+        ],
+        [
+            "Persian",
+            33
+        ],
+        [
+            "Miniature Pinscher",
+            13
+        ],
+        [
+            "Havanese",
+            5
+        ],
+        [
+            "Leonberger",
+            4
+        ],
+        [
+            "Boxer",
+            3
+        ],
+        [
+            "Ragdoll",
+            2
+        ],
+        [
+            "Shiba Inu",
+            2
+        ],
+        [
+            "Newfoundland",
+            1
+        ],
+        [
+            "Scottish Terrier",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Pug": [
+        [
+            "Pug",
+            100
+        ],
+        [
+            "Boxer",
+            93
+        ],
+        [
+            "Japanese Chin",
+            57
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            35
+        ],
+        [
+            "Basset Hound",
+            33
+        ],
+        [
+            "Beagle",
+            28
+        ],
+        [
+            "Scottish Terrier",
+            27
+        ],
+        [
+            "Chihuahua",
+            18
+        ],
+        [
+            "Newfoundland",
+            15
+        ],
+        [
+            "Siamese",
+            14
+        ],
+        [
+            "Miniature Pinscher",
+            12
+        ],
+        [
+            "Birman",
+            10
+        ],
+        [
+            "German Shorthaired",
+            9
+        ],
+        [
+            "Saint Bernard",
+            9
+        ],
+        [
+            "Pomeranian",
+            8
+        ],
+        [
+            "American Pit Bull Terrier",
+            6
+        ],
+        [
+            "Persian",
+            6
+        ],
+        [
+            "Wheaten Terrier",
+            4
+        ],
+        [
+            "Keeshond",
+            3
+        ],
+        [
+            "Ragdoll",
+            3
+        ],
+        [
+            "Sphynx",
+            3
+        ],
+        [
+            "Yorkshire Terrier",
+            3
+        ],
+        [
+            "American Bulldog",
+            2
+        ],
+        [
+            "Bombay",
+            2
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ]
+    ],
+    "Ragdoll": [
+        [
+            "Birman",
+            100
+        ],
+        [
+            "Ragdoll",
+            100
+        ],
+        [
+            "Siamese",
+            94
+        ],
+        [
+            "Persian",
+            93
+        ],
+        [
+            "Maine Coon",
+            57
+        ],
+        [
+            "British Shorthair",
+            23
+        ],
+        [
+            "Bengal",
+            13
+        ],
+        [
+            "Japanese Chin",
+            8
+        ],
+        [
+            "Pomeranian",
+            6
+        ],
+        [
+            "Russian Blue",
+            5
+        ],
+        [
+            "Egyptian Mau",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Russian Blue": [
+        [
+            "Russian Blue",
+            100
+        ],
+        [
+            "Egyptian Mau",
+            97
+        ],
+        [
+            "British Shorthair",
+            92
+        ],
+        [
+            "Sphynx",
+            64
+        ],
+        [
+            "Abyssinian",
+            59
+        ],
+        [
+            "Persian",
+            37
+        ],
+        [
+            "Siamese",
+            35
+        ],
+        [
+            "Birman",
+            7
+        ],
+        [
+            "Ragdoll",
+            4
+        ],
+        [
+            "Maine Coon",
+            3
+        ],
+        [
+            "Bengal",
+            2
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Saint Bernard": [
+        [
+            "Saint Bernard",
+            99
+        ],
+        [
+            "Leonberger",
+            88
+        ],
+        [
+            "Great Pyrenees",
+            75
+        ],
+        [
+            "Newfoundland",
+            74
+        ],
+        [
+            "Boxer",
+            73
+        ],
+        [
+            "American Bulldog",
+            22
+        ],
+        [
+            "Basset Hound",
+            21
+        ],
+        [
+            "English Cocker Spaniel",
+            20
+        ],
+        [
+            "English Setter",
+            13
+        ],
+        [
+            "Japanese Chin",
+            5
+        ],
+        [
+            "Beagle",
+            3
+        ],
+        [
+            "Birman",
+            1
+        ],
+        [
+            "Chihuahua",
+            1
+        ],
+        [
+            "Miniature Pinscher",
+            1
+        ],
+        [
+            "Pomeranian",
+            1
+        ],
+        [
+            "Ragdoll",
+            1
+        ],
+        [
+            "Samoyed",
+            1
+        ],
+        [
+            "Yorkshire Terrier",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ]
+    ],
+    "Samoyed": [
+        [
+            "Keeshond",
+            100
+        ],
+        [
+            "Samoyed",
+            100
+        ],
+        [
+            "Pomeranian",
+            93
+        ],
+        [
+            "Great Pyrenees",
+            86
+        ],
+        [
+            "Persian",
+            40
+        ],
+        [
+            "Shiba Inu",
+            28
+        ],
+        [
+            "Newfoundland",
+            18
+        ],
+        [
+            "Birman",
+            17
+        ],
+        [
+            "Scottish Terrier",
+            10
+        ],
+        [
+            "Ragdoll",
+            5
+        ],
+        [
+            "Saint Bernard",
+            2
+        ],
+        [
+            "Leonberger",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Scottish Terrier": [
+        [
+            "Scottish Terrier",
+            99
+        ],
+        [
+            "Yorkshire Terrier",
+            99
+        ],
+        [
+            "Wheaten Terrier",
+            98
+        ],
+        [
+            "Havanese",
+            49
+        ],
+        [
+            "Newfoundland",
+            38
+        ],
+        [
+            "Miniature Pinscher",
+            24
+        ],
+        [
+            "Keeshond",
+            22
+        ],
+        [
+            "German Shorthaired",
+            20
+        ],
+        [
+            "Boxer",
+            15
+        ],
+        [
+            "Samoyed",
+            12
+        ],
+        [
+            "Bombay",
+            10
+        ],
+        [
+            "Basset Hound",
+            5
+        ],
+        [
+            "English Setter",
+            2
+        ],
+        [
+            "Chihuahua",
+            1
+        ],
+        [
+            "English Cocker Spaniel",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ]
+    ],
+    "Shiba Inu": [
+        [
+            "Shiba Inu",
+            100
+        ],
+        [
+            "Keeshond",
+            70
+        ],
+        [
+            "Pomeranian",
+            69
+        ],
+        [
+            "Boxer",
+            63
+        ],
+        [
+            "Miniature Pinscher",
+            47
+        ],
+        [
+            "Samoyed",
+            38
+        ],
+        [
+            "Persian",
+            30
+        ],
+        [
+            "Abyssinian",
+            26
+        ],
+        [
+            "Japanese Chin",
+            26
+        ],
+        [
+            "Chihuahua",
+            14
+        ],
+        [
+            "Bengal",
+            4
+        ],
+        [
+            "Beagle",
+            3
+        ],
+        [
+            "American Pit Bull Terrier",
+            2
+        ],
+        [
+            "Pug",
+            2
+        ],
+        [
+            "Scottish Terrier",
+            2
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            2
+        ],
+        [
+            "Bombay",
+            1
+        ],
+        [
+            "Sphynx",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Siamese": [
+        [
+            "Siamese",
+            100
+        ],
+        [
+            "Birman",
+            91
+        ],
+        [
+            "Persian",
+            91
+        ],
+        [
+            "Ragdoll",
+            58
+        ],
+        [
+            "Bengal",
+            39
+        ],
+        [
+            "Abyssinian",
+            35
+        ],
+        [
+            "Egyptian Mau",
+            35
+        ],
+        [
+            "Sphynx",
+            24
+        ],
+        [
+            "Russian Blue",
+            11
+        ],
+        [
+            "Bombay",
+            4
+        ],
+        [
+            "British Shorthair",
+            4
+        ],
+        [
+            "Japanese Chin",
+            4
+        ],
+        [
+            "Maine Coon",
+            2
+        ],
+        [
+            "Keeshond",
+            1
+        ],
+        [
+            "Pomeranian",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Sphynx": [
+        [
+            "Sphynx",
+            100
+        ],
+        [
+            "Persian",
+            93
+        ],
+        [
+            "Siamese",
+            91
+        ],
+        [
+            "Abyssinian",
+            74
+        ],
+        [
+            "Egyptian Mau",
+            53
+        ],
+        [
+            "Russian Blue",
+            32
+        ],
+        [
+            "Birman",
+            15
+        ],
+        [
+            "Maine Coon",
+            14
+        ],
+        [
+            "Bengal",
+            13
+        ],
+        [
+            "Ragdoll",
+            7
+        ],
+        [
+            "Bombay",
+            6
+        ],
+        [
+            "British Shorthair",
+            1
+        ],
+        [
+            "Japanese Chin",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Basset Hound",
+            0
+        ],
+        [
+            "Beagle",
+            0
+        ],
+        [
+            "Boxer",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Newfoundland",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Scottish Terrier",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ],
+        [
+            "Wheaten Terrier",
+            0
+        ],
+        [
+            "Yorkshire Terrier",
+            0
+        ]
+    ],
+    "Staffordshire Bull Terrier": [
+        [
+            "American Pit Bull Terrier",
+            89
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            89
+        ],
+        [
+            "American Bulldog",
+            88
+        ],
+        [
+            "Boxer",
+            88
+        ],
+        [
+            "Sphynx",
+            24
+        ],
+        [
+            "Miniature Pinscher",
+            15
+        ],
+        [
+            "Yorkshire Terrier",
+            15
+        ],
+        [
+            "Scottish Terrier",
+            11
+        ],
+        [
+            "Beagle",
+            8
+        ],
+        [
+            "Chihuahua",
+            4
+        ],
+        [
+            "Basset Hound",
+            3
+        ],
+        [
+            "German Shorthaired",
+            3
+        ],
+        [
+            "Pug",
+            3
+        ],
+        [
+            "Bengal",
+            1
+        ],
+        [
+            "Newfoundland",
+            1
+        ],
+        [
+            "Russian Blue",
+            1
+        ],
+        [
+            "Samoyed",
+            1
+        ],
+        [
+            "Wheaten Terrier",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Cocker Spaniel",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Havanese",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ]
+    ],
+    "Wheaten Terrier": [
+        [
+            "Wheaten Terrier",
+            100
+        ],
+        [
+            "Scottish Terrier",
+            82
+        ],
+        [
+            "Havanese",
+            75
+        ],
+        [
+            "Yorkshire Terrier",
+            63
+        ],
+        [
+            "Keeshond",
+            36
+        ],
+        [
+            "Saint Bernard",
+            36
+        ],
+        [
+            "Leonberger",
+            24
+        ],
+        [
+            "Boxer",
+            20
+        ],
+        [
+            "Newfoundland",
+            14
+        ],
+        [
+            "Basset Hound",
+            12
+        ],
+        [
+            "Great Pyrenees",
+            12
+        ],
+        [
+            "English Cocker Spaniel",
+            10
+        ],
+        [
+            "Samoyed",
+            8
+        ],
+        [
+            "German Shorthaired",
+            3
+        ],
+        [
+            "Ragdoll",
+            2
+        ],
+        [
+            "Beagle",
+            1
+        ],
+        [
+            "English Setter",
+            1
+        ],
+        [
+            "Persian",
+            1
+        ],
+        [
+            "Abyssinian",
+            0
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "American Pit Bull Terrier",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Chihuahua",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "Japanese Chin",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Miniature Pinscher",
+            0
+        ],
+        [
+            "Pomeranian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            0
+        ]
+    ],
+    "Yorkshire Terrier": [
+        [
+            "Yorkshire Terrier",
+            100
+        ],
+        [
+            "Scottish Terrier",
+            96
+        ],
+        [
+            "Havanese",
+            85
+        ],
+        [
+            "Miniature Pinscher",
+            81
+        ],
+        [
+            "Wheaten Terrier",
+            41
+        ],
+        [
+            "Pomeranian",
+            34
+        ],
+        [
+            "Chihuahua",
+            26
+        ],
+        [
+            "Boxer",
+            16
+        ],
+        [
+            "Japanese Chin",
+            4
+        ],
+        [
+            "Staffordshire Bull Terrier",
+            4
+        ],
+        [
+            "Basset Hound",
+            3
+        ],
+        [
+            "Beagle",
+            3
+        ],
+        [
+            "American Pit Bull Terrier",
+            2
+        ],
+        [
+            "English Cocker Spaniel",
+            2
+        ],
+        [
+            "Newfoundland",
+            2
+        ],
+        [
+            "Abyssinian",
+            1
+        ],
+        [
+            "American Bulldog",
+            0
+        ],
+        [
+            "Bengal",
+            0
+        ],
+        [
+            "Birman",
+            0
+        ],
+        [
+            "Bombay",
+            0
+        ],
+        [
+            "British Shorthair",
+            0
+        ],
+        [
+            "Egyptian Mau",
+            0
+        ],
+        [
+            "English Setter",
+            0
+        ],
+        [
+            "German Shorthaired",
+            0
+        ],
+        [
+            "Great Pyrenees",
+            0
+        ],
+        [
+            "Keeshond",
+            0
+        ],
+        [
+            "Leonberger",
+            0
+        ],
+        [
+            "Maine Coon",
+            0
+        ],
+        [
+            "Persian",
+            0
+        ],
+        [
+            "Pug",
+            0
+        ],
+        [
+            "Ragdoll",
+            0
+        ],
+        [
+            "Russian Blue",
+            0
+        ],
+        [
+            "Saint Bernard",
+            0
+        ],
+        [
+            "Samoyed",
+            0
+        ],
+        [
+            "Shiba Inu",
+            0
+        ],
+        [
+            "Siamese",
+            0
+        ],
+        [
+            "Sphynx",
+            0
+        ]
+    ]
+}

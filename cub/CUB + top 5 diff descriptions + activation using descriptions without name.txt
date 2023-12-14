@@ -1,0 +1,64 @@
+Mine with weighted sum, activation created using - (class template vs unmodified desc):-
+
+ViT-B/32
+Total Description-based Top-1 Accuracy:  52.88228988647461
+Total Description-based Top-5 Accuracy:  84.44942831993103
+Total CLIP-Standard Top-1 Accuracy:  51.34621858596802
+Total CLIP-Standard Top-5 Accuracy:  81.58439993858337
+
+
+ViT-B/16
+
+Total Description-based Top-1 Accuracy:  58.06006193161011
+Total Description-based Top-5 Accuracy:  87.26268410682678
+Total CLIP-Standard Top-1 Accuracy:  55.35036325454712
+Total CLIP-Standard Top-5 Accuracy:  85.0017249584198
+
+
+ViT-L/14
+
+Total Description-based Top-1 Accuracy:  65.03279209136963
+Total Description-based Top-5 Accuracy:  92.71660447120667
+Total CLIP-Standard Top-1 Accuracy:  62.53020167350769
+Total CLIP-Standard Top-5 Accuracy:  90.61097502708435
+
+
+ViT-L/14@336px
+
+Total Description-based Top-1 Accuracy:  65.70590138435364
+Total Description-based Top-5 Accuracy:  92.52675175666809
+Total CLIP-Standard Top-1 Accuracy:  62.37487196922302
+Total CLIP-Standard Top-5 Accuracy:  90.43838381767273
+
+
+-----------------------------------------------------------------------------------
+
+
+Theirs with mean:-
+
+ViT-B/32
+Total Description-based Top-1 Accuracy:  51.933032274246216
+Total Description-based Top-5 Accuracy:  84.20780301094055
+Total CLIP-Standard Top-1 Accuracy:  51.34621858596802
+Total CLIP-Standard Top-5 Accuracy:  81.58439993858337
+
+ViT-B/16
+
+Total Description-based Top-1 Accuracy:  56.69658184051514
+Total Description-based Top-5 Accuracy:  86.6240918636322
+Total CLIP-Standard Top-1 Accuracy:  55.35036325454712
+Total CLIP-Standard Top-5 Accuracy:  85.0017249584198
+
+ViT-L/14
+
+Total Description-based Top-1 Accuracy:  63.997238874435425
+Total Description-based Top-5 Accuracy:  91.88815951347351
+Total CLIP-Standard Top-1 Accuracy:  62.53020167350769
+Total CLIP-Standard Top-5 Accuracy:  90.61097502708435
+
+ViT-L/14@336px
+
+Total Description-based Top-1 Accuracy:  64.58405256271362
+Total Description-based Top-5 Accuracy:  91.76734685897827
+Total CLIP-Standard Top-1 Accuracy:  62.254053354263306
+Total CLIP-Standard Top-5 Accuracy:  90.43838381767273

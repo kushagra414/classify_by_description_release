@@ -10,8 +10,8 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-from torchvision.datasets import OxfordIIITPet
-from datasets import _transform, get_full_class_labels, fix_class_names, idx_to_label, CUBDataset
+# from datasets import _transform, CUBDataset
+from pets_dataset import _transform, PetsDataset
 from collections import OrderedDict
 import clip
 
@@ -22,7 +22,7 @@ hparams = {}
 previous_to_new = dict()
 # hyperparameters
 
-hparams['model_size'] = "ViT-B/16" 
+hparams['model_size'] = "ViT-B/32" 
 # Options:
 # ['RN50',
 #  'RN101',
@@ -33,11 +33,12 @@ hparams['model_size'] = "ViT-B/16"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'oxfordPet'
+hparams['dataset'] = 'pets'
 
-hparams['batch_size'] = 64*10
+hparams['batch_size'] = 64*5
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
 hparams['category_name_inclusion'] = 'prepend' #'append' 'prepend'
+hparams['has_activations'] = False
 
 hparams['apply_descriptor_modification'] = True
 
@@ -107,28 +108,27 @@ if hparams['dataset'] == 'imagenet':
 elif hparams['dataset'] == 'cub':
     # load CUB dataset
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
-    dataset = CUBDataset(hparams['data_dir'], train=True, transform=tfms)
+    dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub'
+    hparams['descriptor_fname'] = 'descriptors_cub_top_5'
+    hparams['has_activations'] = True
 
-elif hparams['dataset'] == 'oxfordPet':
+
+elif hparams['dataset'] == 'pets':
     hparams['data_dir'] = pathlib.Path(OXFORD_PET_DIR)
-    dataset = OxfordIIITPet(root=hparams['data_dir'], split='test', transform=tfms)
-    classes_to_load = dataset.classes.copy()
-    complete_class_names = get_full_class_labels(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
-    fix_class_names(dataset, complete_class_names)
-    hparams['descriptor_fname'] = 'descriptors_pets'
-    # classes_to_load = list(previous_to_new.keys())
-    # print(previous_to_new)
-    classes_to_load = dataset.classes
+    dataset = PetsDataset(root=hparams['data_dir'], split='test', transform=tfms)
+    class_to_species = dataset.get_species(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
+    hparams['descriptor_fname'] = 'descriptors_pets_top5'
+    classes_to_load = None
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
     
-
+print("Using descriptors: ", hparams['descriptor_fname'])
 print("Creating descriptors...")
 
 gpt_descriptions, unmodify_dict = load_gpt_descriptions(hparams, classes_to_load)
+
 
 label_to_classname = list(gpt_descriptions.keys())
 
@@ -141,6 +141,9 @@ def compute_description_encodings(model):
         tokens = clip.tokenize(v).to(hparams['device'])
         description_encodings[k] = F.normalize(model.encode_text(tokens))
     return description_encodings
+
+# def get_activation_for_class(get_activations, k, len_of_descriptions):
+#     return torch.tensor(get_activations[k], dtype=torch.float16).to(hparams['device'])
 
 def compute_description_encodings_mine_oxp(model):
     hparams['category_name_inclusion'] = "do-nothing"
@@ -171,6 +174,37 @@ def compute_description_encodings_mine_cub(model):
     return description_encodings
 
 
+def compute_label_encodings(model, label_to_classname = label_to_classname):
+    label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))
+    return label_encodings
+
+def compute_activations(hparams, model, diff_dict):
+    activation_dict = OrderedDict()
+    # keys = list(map(lambda x: f"{x} is a type of a bird that", diff_dict.keys())) # Using a template. For CUB DS
+    # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
+    keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
+    keys = diff_dict.keys() # Using on class labels
+    class_info = zip(diff_dict.keys(), compute_label_encodings(model, keys))
+    for class_, label_encoding in class_info:
+        if not hparams['has_activations']:
+            activation_dict[class_] = torch.tensor([1.]*len(diff_dict[class_]), 
+                                                dtype=torch.float16).to(hparams['device'])
+            continue
+
+    #     descriptions = map(lambda x: f"{k} {x}", diff_dict[class_].values())
+        descriptions = diff_dict[class_].keys()
+        # Find similarity between the class label and the descriptions
+        description_encodings = compute_label_encodings(model, descriptions)
+        sim = label_encoding @ description_encodings.T
+        sim = sim.squeeze()
+        activations = sim.softmax(dim=-1)
+        # print(f"activations.size(): {activations.size()}")
+        activation_dict[class_] = activations
+
+    return activation_dict
+
+
+
 # My addition
 def encoding_operations(encodings, operation="add"):
     if operation == "add":
@@ -181,15 +215,13 @@ def encoding_operations(encodings, operation="add"):
         return encodings
 
 
-def compute_label_encodings(model):
-    label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))
-    return label_encodings
-
-
-def aggregate_similarity(similarity_matrix_chunk, aggregation_method='mean'):
+def aggregate_similarity(similarity_matrix_chunk, activations, aggregation_method='weighted_sum'):
     if aggregation_method == 'max': return similarity_matrix_chunk.max(dim=1)[0]
     elif aggregation_method == 'sum': return similarity_matrix_chunk.sum(dim=1)
     elif aggregation_method == 'mean': return similarity_matrix_chunk.mean(dim=1)
+    elif aggregation_method == 'weighted_sum': 
+        similarity_matrix_chunk = similarity_matrix_chunk * activations
+        return aggregate_similarity(similarity_matrix_chunk, activations, 'sum')
     else: raise ValueError("Unknown aggregate_similarity")
 
 def show_from_indices(indices, images, labels=None, predictions=None, predictions2 = None, n=None, image_description_similarity=None, image_labels_similarity=None):
