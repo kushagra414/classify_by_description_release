@@ -6,7 +6,7 @@ def perform_mine():
     print("Performing Mine....")
     print("Encoding descriptions...")
 
-    get_activations = compute_activations(hparams, model, unmodify_dict)
+    get_activations = compute_activations(model, unmodify_dict)
 
     description_encodings = compute_description_encodings(model, get_activations)
 

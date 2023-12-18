@@ -148,7 +148,7 @@ def compute_description_encodings(model, activations = None):
             activation = torch.ones(tokens.size()[0], dtype=torch.float16).to(hparams['device'])
         else:
             activation = activations[k]
-        description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens) * activation.unsqueeze(dim=1), "mothing"))
+        description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens) * activation.unsqueeze(dim=1), "nothing"))
         # description_encodings[k] = encoding_operations(description_encodings[k])
     return description_encodings
 
@@ -188,24 +188,26 @@ def compute_label_encodings(model, label_to_classname = label_to_classname):
     label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))
     return label_encodings
 
-def compute_activations(hparams, model, diff_dict, activate_using = 'images'):
+def compute_activations(model, unmodify_dict, activate_using = 'images'):
     activation_dict = dict()
     if activate_using == 'images' and hparams['activators_fname'] != None: # Get activations from the file
         activation_dict = load_activations(hparams, classes_to_load)
         return activation_dict
     else:
-        keys = list(map(lambda x: f"{x} is a type of a bird that", diff_dict.keys())) # Using a template. For CUB DS
-        # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
-        # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
-        # keys = diff_dict.keys() # Using on class labels
-        class_info = zip(diff_dict.keys(), compute_label_encodings(model, keys))
+        if hparams['dataset'] == 'cub':
+            keys = list(map(lambda x: f"{x} is a type of a bird that", unmodify_dict.keys())) # Using a template. For CUB DS
+        elif hparams['dataset'] == 'pets':
+            keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", unmodify_dict.keys())) # Using a template. For Oxford Pets
+        else:
+            keys = list( unmodify_dict.keys())
+        class_info = zip(unmodify_dict.keys(), compute_label_encodings(model, keys))
         for class_, label_encoding in class_info:
             if not hparams['has_activations']:
-                activation_dict[class_] = torch.tensor([1.]*len(diff_dict[class_]), 
+                activation_dict[class_] = torch.tensor([1.]*len(unmodify_dict[class_]), 
                                                     dtype=torch.float16).to(hparams['device'])
                 continue
 
-            descriptions = diff_dict[class_].keys()
+            descriptions = unmodify_dict[class_].keys()
             # descriptions = diff_dict[class_].keys()
             # Find similarity between the class label and the descriptions
             description_encodings = compute_label_encodings(model, descriptions)
