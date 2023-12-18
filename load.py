@@ -10,7 +10,7 @@ from torch.utils.data import DataLoader, Subset
 from torchvision import transforms
 from torchvision.datasets import ImageNet, ImageFolder
 from imagenetv2_pytorch import ImageNetV2Dataset as ImageNetV2
-# from datasets import _transform, CUBDataset
+from datasets import _transform, CUBDataset
 from pets_dataset import _transform, PetsDataset
 from collections import OrderedDict
 import clip
@@ -33,7 +33,7 @@ hparams['model_size'] = "ViT-B/32"
 #  'ViT-B/16',
 #  'ViT-L/14',
 #  'ViT-L/14@336px']
-hparams['dataset'] = 'pets'
+hparams['dataset'] = 'cub'
 
 hparams['batch_size'] = 64*5
 hparams['device'] = "cuda" if torch.cuda.is_available() else "cpu"
@@ -75,6 +75,7 @@ hparams['seed'] = 1
 
 # classes_to_load = openai_imagenet_classes
 hparams['descriptor_fname'] = None
+hparams['activators_fname'] = None
 
 IMAGENET_DIR = '/proj/vondrick3/datasets/ImageNet/' # REPLACE THIS WITH YOUR OWN PATH
 IMAGENETV2_DIR = '/proj/vondrick/datasets/ImageNetV2/' # REPLACE THIS WITH YOUR OWN PATH
@@ -110,7 +111,7 @@ elif hparams['dataset'] == 'cub':
     hparams['data_dir'] = pathlib.Path(CUB_DIR)
     dataset = CUBDataset(hparams['data_dir'], train=False, transform=tfms)
     classes_to_load = None #dataset.classes
-    hparams['descriptor_fname'] = 'descriptors_cub_top5'
+    hparams['descriptor_fname'] = 'descriptors_cub'
     hparams['has_activations'] = True
 
 
@@ -118,12 +119,15 @@ elif hparams['dataset'] == 'pets':
     hparams['data_dir'] = pathlib.Path(OXFORD_PET_DIR)
     dataset = PetsDataset(root=hparams['data_dir'], split='test', transform=tfms)
     class_to_species = dataset.get_species(os.path.join(hparams['data_dir'], 'oxford-iiit-pet/annotations/list.txt'))
+    # dataset.fix_class_names()
     hparams['descriptor_fname'] = 'descriptors_pets_top5'
     classes_to_load = dataset.classes
     hparams['has_activations'] = True
+    hparams['activators_fname'] = 'pets_activations'
 
 
 hparams['descriptor_fname'] = './descriptors/' + hparams['descriptor_fname']
+# hparams['activators_fname'] = './descriptors/' + hparams['activators_fname']
     
 print("Using descriptors: ", hparams['descriptor_fname'])
 print("Creating descriptors...")
@@ -136,11 +140,16 @@ label_to_classname = list(gpt_descriptions.keys())
 
 n_classes = len(list(gpt_descriptions.keys()))
 
-def compute_description_encodings(model):
+def compute_description_encodings(model, activations = None):
     description_encodings = OrderedDict()
     for k, v in gpt_descriptions.items():
         tokens = clip.tokenize(v).to(hparams['device'])
-        description_encodings[k] = F.normalize(model.encode_text(tokens))
+        if activations == None:
+            activation = torch.ones(tokens.size()[0], dtype=torch.float16).to(hparams['device'])
+        else:
+            activation = activations[k]
+        description_encodings[k] = F.normalize(encoding_operations(model.encode_text(tokens) * activation.unsqueeze(dim=1), "mothing"))
+        # description_encodings[k] = encoding_operations(description_encodings[k])
     return description_encodings
 
 # def get_activation_for_class(get_activations, k, len_of_descriptions):
@@ -179,44 +188,50 @@ def compute_label_encodings(model, label_to_classname = label_to_classname):
     label_encodings = F.normalize(model.encode_text(clip.tokenize([hparams['label_before_text'] + wordify(l) + hparams['label_after_text'] for l in label_to_classname]).to(hparams['device'])))
     return label_encodings
 
-def compute_activations(hparams, model, diff_dict):
-    activation_dict = OrderedDict()
-    # keys = list(map(lambda x: f"{x} is a type of a bird that", diff_dict.keys())) # Using a template. For CUB DS
-    # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
-    keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
-    # keys = diff_dict.keys() # Using on class labels
-    class_info = zip(diff_dict.keys(), compute_label_encodings(model, keys))
-    for class_, label_encoding in class_info:
-        if not hparams['has_activations']:
-            activation_dict[class_] = torch.tensor([1.]*len(diff_dict[class_]), 
-                                                dtype=torch.float16).to(hparams['device'])
-            continue
+def compute_activations(hparams, model, diff_dict, activate_using = 'images'):
+    activation_dict = dict()
+    if activate_using == 'images' and hparams['activators_fname'] != None: # Get activations from the file
+        activation_dict = load_activations(hparams, classes_to_load)
+        return activation_dict
+    else:
+        keys = list(map(lambda x: f"{x} is a type of a bird that", diff_dict.keys())) # Using a template. For CUB DS
+        # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
+        # keys = list(map(lambda x: f"{x} is a type of a {class_to_species[x]} that", diff_dict.keys())) # Using a template. For Oxford Pets
+        # keys = diff_dict.keys() # Using on class labels
+        class_info = zip(diff_dict.keys(), compute_label_encodings(model, keys))
+        for class_, label_encoding in class_info:
+            if not hparams['has_activations']:
+                activation_dict[class_] = torch.tensor([1.]*len(diff_dict[class_]), 
+                                                    dtype=torch.float16).to(hparams['device'])
+                continue
 
-        descriptions = diff_dict[class_].keys()
-        # descriptions = diff_dict[class_].keys()
-        # Find similarity between the class label and the descriptions
-        description_encodings = compute_label_encodings(model, descriptions)
-        sim = label_encoding @ description_encodings.T
-        sim = sim.squeeze()
-        activations = sim.softmax(dim=-1)
-        # print(f"activations.size(): {activations.size()}")
-        activation_dict[class_] = activations
+            descriptions = diff_dict[class_].keys()
+            # descriptions = diff_dict[class_].keys()
+            # Find similarity between the class label and the descriptions
+            description_encodings = compute_label_encodings(model, descriptions)
+            sim = label_encoding @ description_encodings.T
+            sim = sim.squeeze()
+            activations = sim.softmax(dim=-1)
+            # print(f"activations.size(): {activations.size()}")
+            activation_dict[class_] = activations
 
     return activation_dict
 
 
 
 # My addition
-def encoding_operations(encodings, operation="add"):
+def encoding_operations(encodings, operation="mul"):
     if operation == "add":
         return encodings.sum(dim = 0, keepdim=True)
     elif operation == "mean":
         return encodings.mean(dim = 0, keepdim=True)
+    elif operation == "mul":
+        return encodings.prod(dim=0, keepdim=True)
     else:
         return encodings
 
 
-def aggregate_similarity(similarity_matrix_chunk, activations = None, aggregation_method='weighted_sum'):
+def aggregate_similarity(similarity_matrix_chunk, activations = None, aggregation_method='mean'):
     if aggregation_method == 'max': return similarity_matrix_chunk.max(dim=1)[0]
     elif aggregation_method == 'sum': return similarity_matrix_chunk.sum(dim=1)
     elif aggregation_method == 'mean': return similarity_matrix_chunk.mean(dim=1)

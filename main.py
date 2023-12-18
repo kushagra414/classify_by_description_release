@@ -6,9 +6,9 @@ def perform_mine():
     print("Performing Mine....")
     print("Encoding descriptions...")
 
-    description_encodings = compute_description_encodings(model)
-
     get_activations = compute_activations(hparams, model, unmodify_dict)
+
+    description_encodings = compute_description_encodings(model, get_activations)
 
     label_encodings = compute_label_encodings(model)
 
@@ -42,13 +42,10 @@ def perform_mine():
         
         for i, (k, v) in enumerate(description_encodings.items()): # You can also vectorize this; it wasn't much faster for me
             
-            
             dot_product_matrix = image_encodings @ v.T
             
             image_description_similarity[i] = dot_product_matrix
-
-            activation = get_activations[k]
-            image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i], activation)
+            image_description_similarity_cumulative[i] = aggregate_similarity(image_description_similarity[i])
             
             
         # create tensor of similarity means
@@ -161,6 +158,6 @@ device = torch.device(hparams['device'])
 model, preprocess = clip.load(hparams['model_size'], device=device, jit=False)
 model.eval()
 model.requires_grad_(False)
-perform_mine() # Perform original process
+perform_original() # Perform original process
 
-# perform_mine()
+perform_mine()

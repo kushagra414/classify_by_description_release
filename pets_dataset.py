@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 class PetsDataset(OxfordIIITPet):
-    def __init__(self, root, transform=None, split="trainval"):
+    def __init__(self, root, transform=None, split="test"):
         super(PetsDataset, self).__init__(root, split=split, transform=transform)
         self.class_to_species = dict()
 
@@ -23,6 +23,13 @@ class PetsDataset(OxfordIIITPet):
                 else:
                     self.class_to_species[class_id] = 'Dog'
         return self.class_to_species
+
+    def fix_class_names(self):
+        for key in self.classes:
+            new_key = f"{key} {self.class_to_species[key]}"
+            self.class_to_idx[new_key] = self.class_to_idx.pop(key)
+        self.classes = list(self.class_to_idx.keys())
+
 
 def _transform(n_px):
     return transforms.Compose([

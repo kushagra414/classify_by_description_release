@@ -86,6 +86,12 @@ def load_gpt_descriptions(hparams, classes_to_load=None, previous_to_new=None):
 
     return gpt_descriptions, unmodify_dict
 
+def load_activations(hparams, classes_to_load):
+    activations = load_json(hparams['activators_fname'])
+    ordered_dict = dict()
+    for class_ in classes_to_load:
+        ordered_dict[class_] = torch.tensor(activations[class_], dtype=torch.float16).to(hparams['device'])
+    return ordered_dict
 
 def seed_everything(seed: int):
     # import random, os
