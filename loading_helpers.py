@@ -43,7 +43,7 @@ def remove_duplicates(gpt_descriptions):
 
 def load_gpt_descriptions(hparams, classes_to_load=None, previous_to_new=None):
     gpt_descriptions_unordered = load_json(hparams['descriptor_fname'])
-    remove_duplicates(gpt_descriptions_unordered)
+    # remove_duplicates(gpt_descriptions_unordered)
     unmodify_dict = {}
     
     
